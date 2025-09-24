@@ -1,0 +1,147 @@
+{
+  "navigation": {
+    "about": "Tentang",
+    "education": "Pendidikan",
+    "experience": "Pengalaman",
+    "skills": "Keahlian",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "name": "Gabriel Ivan Setyaputra",
+    "title": "Software Engineer",
+    "location": "Tulungagung, Indonesia",
+    "bio": "Software Engineer berpengalaman dengan keahlian dalam Flutter, React.js, dan pengembangan web/mobile. Meningkatkan keterlibatan pengguna dan mengoptimalkan proses di Grab.",
+    "downloadCV": "Unduh CV",
+    "contactMe": "Hubungi Saya"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "description": "Saya adalah seorang software engineer yang bersemangat dengan pengalaman lebih dari 3 tahun dalam mengembangkan aplikasi mobile dan web. Saya mengkhususkan diri dalam Flutter, React.js, dan pengembangan full-stack, dengan rekam jejak yang terbukti dalam meningkatkan keterlibatan pengguna dan mengoptimalkan proses pengembangan."
+  },
+  "education": {
+    "title": "Pendidikan",
+    "university": "Universitas Tarumanagara",
+    "degree": "Sarjana Sains Teknik Informatika",
+    "gpa": "IPK: 3.6",
+    "location": "Jakarta, Indonesia",
+    "year": "2022"
+  },
+  "experience": {
+    "title": "Pengalaman",
+    "current": "Sekarang",
+    "experiences": [
+      {
+        "company": "PT. Kudo Teknologi Indonesia (Grab)",
+        "position": "Software Engineer",
+        "type": "Full-time",
+        "location": "Jakarta, Indonesia (Remote)",
+        "period": "Mei 2022 - Juni 2025",
+        "roles": [
+          {
+            "title": "Mobile Engineer - Flutter (Mex App)",
+            "achievements": [
+              "Meningkatkan tingkat respons positif feedback pengguna dari 79% menjadi 91%",
+              "Meningkatkan performa aplikasi mobile dan pengalaman pengguna",
+              "Mengimplementasikan fitur baru menggunakan Flutter dan Dart"
+            ]
+          },
+          {
+            "title": "Software Engineer - Web (Mex Onboarding)",
+            "achievements": [
+              "Mengembangkan dan memelihara platform onboarding web",
+              "Mengoptimalkan alur dan proses onboarding pengguna",
+              "Mengurangi waktu penyelesaian onboarding sebesar 40%"
+            ]
+          },
+          {
+            "title": "Software Engineer - Web & Flutter (POS)",
+            "achievements": [
+              "Membangun sistem point-of-sale menggunakan teknologi web dan mobile",
+              "Mengurangi tiket dukungan pelanggan sebesar 53%",
+              "Mengintegrasikan sistem pembayaran dan manajemen inventori"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "PT Global Media Utama Teknologi",
+        "position": "Web Developer",
+        "type": "Magang",
+        "location": "Jakarta, Indonesia (Remote)",
+        "period": "Jan 2021 - Feb 2022",
+        "roles": [
+          {
+            "title": "Full-Stack Developer",
+            "achievements": [
+              "Mengembangkan sistem Customer Relationship Management",
+              "Dibangun dengan MERN Stack (MongoDB, Express.js, React.js, Node.js)",
+              "Mengimplementasikan fitur otentikasi pengguna dan manajemen data"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Keahlian",
+    "categories": {
+      "mobile": "Pengembangan Mobile",
+      "web": "Pengembangan Web",
+      "backend": "Pengembangan Backend",
+      "database": "Database",
+      "languages": "Bahasa Pemrograman",
+      "other": "Keahlian Lainnya"
+    },
+    "items": {
+      "flutter": "Flutter",
+      "dart": "Dart",
+      "react": "React.js",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "webEngineering": "Web Engineering",
+      "mongodb": "MongoDB",
+      "express": "Express.js",
+      "nodejs": "Node.js"
+    }
+  },
+  "interests": {
+    "title": "Minat & Hobi",
+    "items": [
+      "Bermain Gitar",
+      "Gaming",
+      "Traveling"
+    ]
+  },
+  "languages": {
+    "title": "Bahasa",
+    "items": {
+      "english": "Bahasa Inggris",
+      "indonesian": "Bahasa Indonesia"
+    }
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "description": "Saya selalu terbuka untuk mendiskusikan peluang baru dan proyek menarik. Jangan ragu untuk menghubungi saya!",
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "message": "Pesan",
+      "send": "Kirim Pesan",
+      "sending": "Mengirim...",
+      "success": "Pesan berhasil dikirim!",
+      "error": "Gagal mengirim pesan. Silakan coba lagi."
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Gabriel Ivan Setyaputra. Semua hak dilindungi.",
+    "builtWith": "Dibangun dengan Next.js dan Tailwind CSS"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi",
+    "close": "Tutup"
+  }
+}

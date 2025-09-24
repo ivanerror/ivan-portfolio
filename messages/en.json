@@ -1,0 +1,147 @@
+{
+  "navigation": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Gabriel Ivan Setyaputra",
+    "title": "Software Engineer",
+    "location": "Tulungagung, Indonesia",
+    "bio": "Experienced Software Engineer with expertise in Flutter, React.js, and web/mobile development. Improved user engagement and optimized processes at Grab.",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a passionate software engineer with over 3 years of experience in developing mobile and web applications. I specialize in Flutter, React.js, and full-stack development, with a proven track record of improving user engagement and optimizing development processes."
+  },
+  "education": {
+    "title": "Education",
+    "university": "Tarumanagara University",
+    "degree": "Bachelor of Science in Informatics Engineering",
+    "gpa": "GPA: 3.6",
+    "location": "Jakarta, Indonesia",
+    "year": "2022"
+  },
+  "experience": {
+    "title": "Experience",
+    "current": "Present",
+    "experiences": [
+      {
+        "company": "PT. Kudo Teknologi Indonesia (Grab)",
+        "position": "Software Engineer",
+        "type": "Full-time",
+        "location": "Jakarta, Indonesia (Remote)",
+        "period": "May 2022 - June 2025",
+        "roles": [
+          {
+            "title": "Mobile Engineer - Flutter (Mex App)",
+            "achievements": [
+              "Improved user feedback positive response rates from 79% to 91%",
+              "Enhanced mobile app performance and user experience",
+              "Implemented new features using Flutter and Dart"
+            ]
+          },
+          {
+            "title": "Software Engineer - Web (Mex Onboarding)",
+            "achievements": [
+              "Developed and maintained web onboarding platform",
+              "Optimized user onboarding flow and processes",
+              "Reduced onboarding completion time by 40%"
+            ]
+          },
+          {
+            "title": "Software Engineer - Web & Flutter (POS)",
+            "achievements": [
+              "Built point-of-sale system using web and mobile technologies",
+              "Reduced customer support tickets by 53%",
+              "Integrated payment systems and inventory management"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "PT Global Media Utama Teknologi",
+        "position": "Web Developer",
+        "type": "Internship",
+        "location": "Jakarta, Indonesia (Remote)",
+        "period": "Jan 2021 - Feb 2022",
+        "roles": [
+          {
+            "title": "Full-Stack Developer",
+            "achievements": [
+              "Developed Customer Relationship Management system",
+              "Built with MERN Stack (MongoDB, Express.js, React.js, Node.js)",
+              "Implemented user authentication and data management features"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "mobile": "Mobile Development",
+      "web": "Web Development",
+      "backend": "Backend Development",
+      "database": "Database",
+      "languages": "Programming Languages",
+      "other": "Other Skills"
+    },
+    "items": {
+      "flutter": "Flutter",
+      "dart": "Dart",
+      "react": "React.js",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "webEngineering": "Web Engineering",
+      "mongodb": "MongoDB",
+      "express": "Express.js",
+      "nodejs": "Node.js"
+    }
+  },
+  "interests": {
+    "title": "Interests & Hobbies",
+    "items": [
+      "Playing Guitar",
+      "Gaming",
+      "Traveling"
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "items": {
+      "english": "English",
+      "indonesian": "Indonesian"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm always open to discussing new opportunities and interesting projects. Feel free to reach out!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Gabriel Ivan Setyaputra. All rights reserved.",
+    "builtWith": "Built with Next.js and Tailwind CSS"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "close": "Close"
+  }
+}
