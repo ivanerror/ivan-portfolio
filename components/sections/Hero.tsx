@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { GlowCard } from '@/components/ui/glow-card';
 import { ParallaxElement } from '@/components/ui/parallax-background';
 import { Download, Mail, MapPin, Phone } from 'lucide-react';
+import Image from 'next/image';
 
 const Hero = () => {
   const t = useTranslations('hero');
@@ -33,13 +34,16 @@ const Hero = () => {
           <div className="flex justify-center mb-8">
             <div className="relative group">
               <div className="w-40 h-40 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-full p-1 shadow-2xl">
-                <div className="w-full h-full bg-background rounded-full flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <span className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    GI
-                  </span>
+                <div className="w-full h-full rounded-full flex items-center justify-center group-hover:scale-105 transition-transform duration-300 relative">
+                  <Image
+                    src="/avatar.png"
+                    alt="Gabriel Ivan"
+                    fill
+                    className="rounded-full object-cover"
+                  />
                 </div>
               </div>
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-300" />
+              <div className="absolute inset-0 rounded-full blur-xl group-hover:opacity-30 transition-opacity duration-300" />
             </div>
           </div>
 
