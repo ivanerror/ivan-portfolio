@@ -33,6 +33,14 @@ export const metadata: Metadata = {
     title: "Gabriel Ivan Setyaputra - Software Engineer Portfolio",
     description: "Experienced Software Engineer with expertise in Flutter, React.js, and web/mobile development.",
     siteName: "Gabriel Ivan Setyaputra Portfolio",
+    images: [
+      {
+        url: "/logo/light.png",
+        width: 1200,
+        height: 630,
+        alt: "Gabriel Ivan Setyaputra - Software Engineer Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
