@@ -26,10 +26,7 @@ export async function generateMetadata({
     description: t('bio'),
     alternates: {
       canonical: `/${locale}`,
-      languages: {
-        'en': '/en',
-        'id': '/id',
-      },
+      languages: Object.fromEntries(routing.locales.map(loc => [loc, `/${loc}`])),
     },
   };
 }
@@ -44,7 +41,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
 
   // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as 'en' | 'id')) {
+  if (!routing.locales.includes(locale as any)) {
     notFound();
   }
 

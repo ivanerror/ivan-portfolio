@@ -1,0 +1,156 @@
+{
+  "navigation": {
+    "about": "Về tôi",
+    "education": "Giáo dục",
+    "experience": "Kinh nghiệm",
+    "skills": "Kỹ năng",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "name": "Gabriel Ivan Setyaputra",
+    "title": "Kỹ sư Phần mềm",
+    "location": "Tulungagung, Indonesia",
+    "bio": "🚀 Kỹ sư Phần mềm đam mê biến ý tưởng thành hiện thực! Chuyên gia trong Flutter, React.js và phát triển web/mobile hàng đầu. Cung cấp các giải pháp mang tính cách mạng tăng cường sự tham gia của người dùng lên 155% và giảm chi phí hoạt động tại Grab.",
+    "downloadCV": "Tải CV của tôi",
+    "contactMe": "Hãy kết nối"
+  },
+  "about": {
+    "title": "Về tôi",
+    "description": "💡 Tôi là một thợ thủ công mã và kiến trúc sư kỹ thuật số với 3+ năm biến những thách thức phức tạp thành các giải pháp tinh tế! Siêu năng lực của tôi? Tạo ra trải nghiệm di động và web tuyệt vời với Flutter, React.js và phép màu full-stack. Tôi không chỉ viết mã—tôi kỹ sư niềm vui của người dùng và xây dựng các hệ thống có thể mở rộng! 🎨✨"
+  },
+  "education": {
+    "title": "Giáo dục",
+    "university": "Đại học Tarumanagara",
+    "degree": "Cử nhân Khoa học Kỹ thuật Thông tin",
+    "gpa": "GPA: 3.6",
+    "location": "Jakarta, Indonesia",
+    "year": "2022"
+  },
+  "experience": {
+    "title": "Kinh nghiệm",
+    "current": "Hiện tại",
+    "experiences": [
+      {
+        "company": "PT. Kudo Teknologi Indonesia (Grab)",
+        "position": "Kỹ sư Phần mềm",
+        "type": "Toàn thời gian",
+        "location": "Jakarta, Indonesia (Từ xa)",
+        "period": "Tháng 5 2022 - Tháng 6 2025",
+        "roles": [
+          {
+            "title": "Kỹ sư Di động - Flutter (Ứng dụng Mex)",
+            "achievements": [
+              "💥 Tăng tỷ lệ phản hồi phản hồi của người dùng từ 79% lên 91% và sự tham gia từ 11.5% lên 29.4%",
+              "⚡ Tối ưu hóa tải máy chủ và giảm chi phí bằng cách tích hợp Trợ lý AI Mex qua WebView",
+              "🚀 Tăng cường sự tham gia thông qua hiển thị nội dung động với JSON SDUI",
+              "🏆 Hoàn thành 'Meal For One Insights Phase 1' là Dự án Top 40 tại Grab"
+            ]
+          },
+          {
+            "title": "Kỹ sư Phần mềm - Web (Mex Onboarding)",
+            "achievements": [
+              "💪 Tiết kiệm ~900 giờ làm việc hàng tháng bằng cách nâng cao các tính năng dịch động",
+              "🎨 Phát triển các thành phần UI/UX Onboarding Tiến bộ bao phủ 80% quy trình làm việc",
+              "⚡ Tăng tốc quá trình onboarding với các thành phần cơ sở phổ quát"
+            ]
+          },
+          {
+            "title": "Kỹ sư Phần mềm - Web & Flutter (POS)",
+            "achievements": [
+              "💰 Giảm thời gian triển khai và tiết kiệm RM 300-500 trong phí thiết lập với quét QR",
+              "🎯 Dẫn dắt việc tạo hệ thống thiết kế và nâng cấp Flutter lên v3.3.10 để nhất quán UI",
+              "📉 Giảm vé hỗ trợ 53%+ với phát triển công cụ chẩn đoán",
+              "🚀 Xây dựng trang đích tạo khách hàng tiềm năng cải thiện tỷ lệ chuyển đổi"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "PT Global Media Utama Teknologi",
+        "position": "Nhà phát triển Web",
+        "type": "Thực tập",
+        "location": "Jakarta, Indonesia (Từ xa)",
+        "period": "Tháng 1 2021 - Tháng 2 2022",
+        "roles": [
+          {
+            "title": "Nhà phát triển Full-Stack",
+            "achievements": [
+              "Xây dựng hệ thống CRM toàn diện chuyển đổi mối quan hệ khách hàng",
+              "Tận dụng sức mạnh của MERN Stack (MongoDB, Express.js, React.js, Node.js) để tác động tối đa",
+              "Triển khai các giải pháp xác thực chống đạn và quản lý dữ liệu thông minh"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Kỹ năng",
+    "categories": {
+      "mobile": "Phát triển Di động",
+      "web": "Phát triển Web",
+      "backend": "Phát triển Backend",
+      "database": "Cơ sở dữ liệu",
+      "languages": "Ngôn ngữ Lập trình",
+      "other": "Kỹ năng Khác"
+    },
+    "items": {
+      "flutter": "Flutter",
+      "dart": "Dart",
+      "react": "React.js",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "webEngineering": "Kỹ thuật Web",
+      "mongodb": "MongoDB",
+      "express": "Express.js",
+      "nodejs": "Node.js",
+      "mernStack": "MERN Stack"
+    }
+  },
+  "interests": {
+    "title": "Sở thích & Sở thích",
+    "items": [
+      "🎸 Chơi Guitar",
+      "🎮 Chơi game",
+      "✈️ Du lịch"
+    ]
+  },
+  "languages": {
+    "title": "Ngôn ngữ",
+    "items": {
+      "english": "Tiếng Anh",
+      "indonesian": "Tiếng Indonesia",
+      "malay": "Tiếng Malay",
+      "thai": "Tiếng Thái",
+      "vietnamese": "Tiếng Việt",
+      "filipino": "Tiếng Filipino"
+    }
+  },
+  "contact": {
+    "title": "🚀 Hãy Tạo Ra Điều Gì Đó Tuyệt Vời",
+    "description": "Sẵn sàng biến những giấc mơ công nghệ điên rồ nhất của bạn thành hiện thực? Tôi luôn hào hứng nhảy vào các dự án đột phá và khám phá các cơ hội thú vị. Đừng ngần ngại—hãy tạo phép màu xảy ra! ✨",
+    "form": {
+      "name": "Tên",
+      "email": "Email",
+      "message": "Tin nhắn",
+      "send": "Gửi Tin nhắn",
+      "sending": "Đang gửi...",
+      "success": "🎉 Tin nhắn đã gửi! Chờ phép màu sớm!",
+      "successDescription": "Tôi sẽ trả lời nhanh hơn tốc độ ánh sáng!",
+      "error": "🔧 Houston, chúng ta có vấn đề! Hãy thử lại.",
+      "errorDescription": "Vui lòng kiểm tra kết nối của bạn và thử lại."
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Gabriel Ivan Setyaputra. Tất cả quyền được bảo lưu.",
+    "builtWith": "⚡ Được cung cấp bởi Next.js & tạo kiểu với phép màu Tailwind CSS"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại",
+    "close": "Đóng"
+  }
+}

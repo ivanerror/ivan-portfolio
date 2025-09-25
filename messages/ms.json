@@ -1,0 +1,156 @@
+{
+  "navigation": {
+    "about": "Tentang",
+    "education": "Pendidikan",
+    "experience": "Pengalaman",
+    "skills": "Kemahiran",
+    "contact": "Hubungi"
+  },
+  "hero": {
+    "name": "Gabriel Ivan Setyaputra",
+    "title": "Jurutera Perisian",
+    "location": "Tulungagung, Indonesia",
+    "bio": "🚀 Jurutera Perisian yang bersemangat menukar idea menjadi kenyataan! Pakar dalam Flutter, React.js, dan pembangunan web/mobile terkini. Menyampaikan penyelesaian yang mengubah permainan yang meningkatkan penglibatan pengguna sebanyak 155% dan mengurangkan kos operasi di Grab.",
+    "downloadCV": "Muat Turun CV Saya",
+    "contactMe": "Mari Bersambung"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "description": "💡 Saya adalah pengrajin kod dan arkitek digital dengan 3+ tahun menukar cabaran kompleks menjadi penyelesaian yang elegan! Kuasa super saya? Mencipta pengalaman mudah alih dan web yang menakjubkan dengan Flutter, React.js, dan sihir full-stack. Saya tidak hanya menulis kod—saya kejuruteraan kegembiraan pengguna dan membina sistem yang berskala! 🎨✨"
+  },
+  "education": {
+    "title": "Pendidikan",
+    "university": "Universiti Tarumanagara",
+    "degree": "Sarjana Sains dalam Kejuruteraan Informatik",
+    "gpa": "GPA: 3.6",
+    "location": "Jakarta, Indonesia",
+    "year": "2022"
+  },
+  "experience": {
+    "title": "Pengalaman",
+    "current": "Kini",
+    "experiences": [
+      {
+        "company": "PT. Kudo Teknologi Indonesia (Grab)",
+        "position": "Jurutera Perisian",
+        "type": "Sepenuh Masa",
+        "location": "Jakarta, Indonesia (Jarak Jauh)",
+        "period": "Mei 2022 - Jun 2025",
+        "roles": [
+          {
+            "title": "Jurutera Mudah Alih - Flutter (Aplikasi Mex)",
+            "achievements": [
+              "💥 Meningkatkan kadar respons maklum balas pengguna dari 79% ke 91% dan penglibatan dari 11.5% ke 29.4%",
+              "⚡ Mengoptimumkan beban pelayan dan mengurangkan kos dengan menyepadukan Pembantu AI Mex melalui WebView",
+              "🚀 Meningkatkan penglibatan melalui pemaparan kandungan dinamik dengan JSON SDUI",
+              "🏆 Menyelesaikan 'Meal For One Insights Phase 1' sebagai Projek Teratas 40 di Grab"
+            ]
+          },
+          {
+            "title": "Jurutera Perisian - Web (Onboarding Mex)",
+            "achievements": [
+              "💪 Menjimatkan ~900 jam kerja bulanan dengan meningkatkan ciri terjemahan dinamik",
+              "🎨 Membangunkan komponen UI/UX Onboarding Progresif yang meliputi 80% aliran kerja",
+              "⚡ Mempercepatkan proses onboarding dengan komponen asas universal"
+            ]
+          },
+          {
+            "title": "Jurutera Perisian - Web & Flutter (POS)",
+            "achievements": [
+              "💰 Mengurangkan masa pelaksanaan dan menjimatkan RM 300-500 dalam yuran persediaan dengan imbasan QR",
+              "🎯 Memimpin penciptaan sistem reka bentuk dan menaik taraf Flutter ke v3.3.10 untuk konsistensi UI",
+              "📉 Mengurangkan tiket sokongan sebanyak 53%+ dengan pembangunan alat diagnostik",
+              "🚀 Membina halaman pendaratan penjanaan petunjuk yang meningkatkan kadar penukaran"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "PT Global Media Utama Teknologi",
+        "position": "Pembangun Web",
+        "type": "Latihan Industri",
+        "location": "Jakarta, Indonesia (Jarak Jauh)",
+        "period": "Jan 2021 - Feb 2022",
+        "roles": [
+          {
+            "title": "Pembangun Full-Stack",
+            "achievements": [
+              "Membina sistem CRM komprehensif yang mentransformasi hubungan pelanggan",
+              "Menggunakan kuasa Tumpukan MERN (MongoDB, Express.js, React.js, Node.js) untuk impak maksimum",
+              "Melaksanakan penyelesaian pengesahan kalis peluru dan pengurusan data pintar"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Kemahiran",
+    "categories": {
+      "mobile": "Pembangunan Mudah Alih",
+      "web": "Pembangunan Web",
+      "backend": "Pembangunan Backend",
+      "database": "Pangkalan Data",
+      "languages": "Bahasa Pengaturcaraan",
+      "other": "Kemahiran Lain"
+    },
+    "items": {
+      "flutter": "Flutter",
+      "dart": "Dart",
+      "react": "React.js",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "webEngineering": "Kejuruteraan Web",
+      "mongodb": "MongoDB",
+      "express": "Express.js",
+      "nodejs": "Node.js",
+      "mernStack": "Tumpukan MERN"
+    }
+  },
+  "interests": {
+    "title": "Minat & Hobi",
+    "items": [
+      "🎸 Bermain Gitar",
+      "🎮 Bermain Permainan",
+      "✈️ Melancong"
+    ]
+  },
+  "languages": {
+    "title": "Bahasa",
+    "items": {
+      "english": "Bahasa Inggeris",
+      "indonesian": "Bahasa Indonesia",
+      "malay": "Bahasa Melayu",
+      "thai": "Bahasa Thai",
+      "vietnamese": "Bahasa Vietnam",
+      "filipino": "Bahasa Filipino"
+    }
+  },
+  "contact": {
+    "title": "🚀 Mari Cipta Sesuatu yang Hebat",
+    "description": "Bersedia menukar impian tech terliar anda menjadi kenyataan? Saya sentiasa teruja untuk menyelam ke dalam projek-projek terobosan dan meneroka peluang yang menarik. Jangan ragu—mari kita buat sihir berlaku! ✨",
+    "form": {
+      "name": "Nama",
+      "email": "Emel",
+      "message": "Mesej",
+      "send": "Hantar Mesej",
+      "sending": "Menghantar...",
+      "success": "🎉 Mesej dihantar! Tunggu keajaiban segera!",
+      "successDescription": "Saya akan kembali kepada anda lebih cepat daripada kelajuan cahaya!",
+      "error": "🔧 Houston, kami ada masalah! Mari cuba lagi.",
+      "errorDescription": "Sila periksa sambungan anda dan cuba lagi."
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Gabriel Ivan Setyaputra. Semua hak terpelihara.",
+    "builtWith": "⚡ Dikuasakan oleh Next.js & digayakan dengan sihir Tailwind CSS"
+  },
+  "common": {
+    "loading": "Memuatkan...",
+    "error": "Ralat berlaku",
+    "retry": "Cuba Semula",
+    "close": "Tutup"
+  }
+}

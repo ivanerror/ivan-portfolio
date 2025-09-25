@@ -112,16 +112,20 @@
   "interests": {
     "title": "Interests & Hobbies",
     "items": [
-      "🎸 Playing Guitar & creating musical magic",
-      "🎮 Gaming adventures & digital exploration",
-      "✈️ Traveling & cultural discovery"
+      "🎸 Playing Guitar",
+      "🎮 Gaming",
+      "✈️ Traveling"
     ]
   },
   "languages": {
     "title": "Languages",
     "items": {
       "english": "English",
-      "indonesian": "Indonesian"
+      "indonesian": "Indonesian",
+      "malay": "Malay",
+      "thai": "Thai",
+      "vietnamese": "Vietnamese",
+      "filipino": "Filipino"
     }
   },
   "contact": {

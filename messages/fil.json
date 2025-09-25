@@ -1,0 +1,156 @@
+{
+  "navigation": {
+    "about": "Tungkol sa Akin",
+    "education": "Edukasyon",
+    "experience": "Karanasan",
+    "skills": "Mga Kasanayan",
+    "contact": "Makipag-ugnayan"
+  },
+  "hero": {
+    "name": "Gabriel Ivan Setyaputra",
+    "title": "Software Engineer",
+    "location": "Tulungagung, Indonesia",
+    "bio": "🚀 Masigasig na Software Engineer na nagiging realidad ang mga ideya! Eksperto sa Flutter, React.js, at nangungunang pag-unlad ng web/mobile. Naghahatid ng mga solusyon na nagbabago ng laro na nagtaas ng user engagement ng 155% at binababa ang mga gastos sa operasyon sa Grab.",
+    "downloadCV": "Kunin ang Aking CV",
+    "contactMe": "Magkonekta Tayo"
+  },
+  "about": {
+    "title": "Tungkol sa Akin",
+    "description": "💡 Ako ay isang code craftsman at digital architect na may 3+ taong karanasan sa pagbabago ng mga kumplikadong hamon sa mga elegante na solusyon! Ang aking superpower? Paglikha ng mga kamangha-manghang mobile at web experiences gamit ang Flutter, React.js, at full-stack magic. Hindi ako nag-susulat lamang ng code—ako ay nag-e-engineer ng user delight at nagtatayo ng mga sistema na maaaring mag-scale! 🎨✨"
+  },
+  "education": {
+    "title": "Edukasyon",
+    "university": "Tarumanagara University",
+    "degree": "Bachelor of Science in Informatics Engineering",
+    "gpa": "GPA: 3.6",
+    "location": "Jakarta, Indonesia",
+    "year": "2022"
+  },
+  "experience": {
+    "title": "Karanasan",
+    "current": "Kasalukuyan",
+    "experiences": [
+      {
+        "company": "PT. Kudo Teknologi Indonesia (Grab)",
+        "position": "Software Engineer",
+        "type": "Full-time",
+        "location": "Jakarta, Indonesia (Remote)",
+        "period": "Mayo 2022 - Hunyo 2025",
+        "roles": [
+          {
+            "title": "Mobile Engineer - Flutter (Mex App)",
+            "achievements": [
+              "💥 Pinataas ang user feedback response rates mula 79% hanggang 91% at engagement mula 11.5% hanggang 29.4%",
+              "⚡ Na-optimize ang server load at binababa ang gastos sa pamamagitan ng pag-integrate ng Mex AI Assistant via WebView",
+              "🚀 Pinataas ang engagement sa pamamagitan ng dynamic content rendering gamit ang JSON SDUI",
+              "🏆 Natapos ang 'Meal For One Insights Phase 1' bilang Top 40 Project sa Grab"
+            ]
+          },
+          {
+            "title": "Software Engineer - Web (Mex Onboarding)",
+            "achievements": [
+              "💪 Na-save ang ~900 buwanang man-hours sa pamamagitan ng pagpapahusay ng dynamic translation features",
+              "🎨 Binuo ang Progressive Onboarding UI/UX components na sumasaklaw sa 80% ng workflows",
+              "⚡ Pinabilis ang onboarding process gamit ang universal base components"
+            ]
+          },
+          {
+            "title": "Software Engineer - Web & Flutter (POS)",
+            "achievements": [
+              "💰 Binababa ang deployment time at na-save ang RM 300-500 sa setup fees gamit ang QR scanning",
+              "🎯 Pinamunuan ang design system creation at in-upgrade ang Flutter sa v3.3.10 para sa UI consistency",
+              "📉 Binababa ang support tickets ng 53%+ gamit ang diagnostic tool development",
+              "🚀 Binuo ang lead generation landing page na nagpapahusay sa conversion rates"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "PT Global Media Utama Teknologi",
+        "position": "Web Developer",
+        "type": "Internship",
+        "location": "Jakarta, Indonesia (Remote)",
+        "period": "Enero 2021 - Pebrero 2022",
+        "roles": [
+          {
+            "title": "Full-Stack Developer",
+            "achievements": [
+              "Binuo ang isang komprehensibong CRM system na nag-transform ng client relationships",
+              "Ginamit ang makapangyarihang MERN Stack (MongoDB, Express.js, React.js, Node.js) para sa maximum impact",
+              "Ipinatupad ang bulletproof authentication at smart data management solutions"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mga Kasanayan",
+    "categories": {
+      "mobile": "Mobile Development",
+      "web": "Web Development",
+      "backend": "Backend Development",
+      "database": "Database",
+      "languages": "Programming Languages",
+      "other": "Iba Pang Kasanayan"
+    },
+    "items": {
+      "flutter": "Flutter",
+      "dart": "Dart",
+      "react": "React.js",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "webEngineering": "Web Engineering",
+      "mongodb": "MongoDB",
+      "express": "Express.js",
+      "nodejs": "Node.js",
+      "mernStack": "MERN Stack"
+    }
+  },
+  "interests": {
+    "title": "Mga Interes & Hobbies",
+    "items": [
+      "🎸 Paglalaro ng Gitara",
+      "🎮 Paglalaro ng Laro",
+      "✈️ Paglalakbay"
+    ]
+  },
+  "languages": {
+    "title": "Mga Wika",
+    "items": {
+      "english": "Ingles",
+      "indonesian": "Indonesian",
+      "malay": "Malay",
+      "thai": "Thai",
+      "vietnamese": "Vietnamese",
+      "filipino": "Filipino"
+    }
+  },
+  "contact": {
+    "title": "🚀 Gumawa Tayo ng Katulad na Kamangha-mangha",
+    "description": "Handa ka bang gawing realidad ang iyong mga pinaka-lokong tech dreams? Lagi akong excited na tumalon sa groundbreaking projects at galugarin ang mga thrilling opportunities. Huwag mag-atubiling—gumawa tayo ng magic mangyari! ✨",
+    "form": {
+      "name": "Pangalan",
+      "email": "Email",
+      "message": "Mensahe",
+      "send": "Ipadala ang Mensahe",
+      "sending": "Nagpapadala sa espasyo...",
+      "success": "🎉 Naipadala ang mensahe! Maghintay ng kamangha-mangha sa lalong madaling panahon!",
+      "successDescription": "Babalik ako nang mas mabilis kaysa sa bilis ng liwanag!",
+      "error": "🔧 Houston, may problema tayo! Subukan natin ulit.",
+      "errorDescription": "Pakitingnan ang iyong koneksyon at subukan ulit."
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Gabriel Ivan Setyaputra. Lahat ng karapatan ay nakalaan.",
+    "builtWith": "⚡ Pinapagana ng Next.js & pinopola ng Tailwind CSS magic"
+  },
+  "common": {
+    "loading": "Naglo-load...",
+    "error": "Nagkaroon ng error",
+    "retry": "Subukan Uli",
+    "close": "Isara"
+  }
+}

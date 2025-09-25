@@ -35,6 +35,10 @@ const Header = () => {
   const languages = [
     { code: 'en', label: 'English', flag: '🇺🇸' },
     { code: 'id', label: 'Bahasa Indonesia', flag: '🇮🇩' },
+    { code: 'ms', label: 'Bahasa Melayu', flag: '🇲🇾' },
+    { code: 'th', label: 'ภาษาไทย', flag: '🇹🇭' },
+    { code: 'vi', label: 'Tiếng Việt', flag: '🇻🇳' },
+    { code: 'fil', label: 'Filipino', flag: '🇵🇭' },
   ];
 
   // Color palettes matching the space background - Dark theme

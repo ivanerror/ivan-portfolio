@@ -112,16 +112,20 @@
   "interests": {
     "title": "Minat & Hobi",
     "items": [
-      "🎸 Bermain Gitar & menciptakan keajaiban musikal",
-      "🎮 Petualangan gaming & eksplorasi digital",
-      "✈️ Traveling & penemuan budaya"
+      "🎸 Bermain Gitar",
+      "🎮 gaming",
+      "✈️ Traveling"
     ]
   },
   "languages": {
     "title": "Bahasa",
     "items": {
       "english": "Bahasa Inggris",
-      "indonesian": "Bahasa Indonesia"
+      "indonesian": "Bahasa Indonesia",
+      "malay": "Bahasa Melayu",
+      "thai": "Bahasa Thai",
+      "vietnamese": "Bahasa Vietnam",
+      "filipino": "Bahasa Filipino"
     }
   },
   "contact": {
