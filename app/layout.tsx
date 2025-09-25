@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import DynamicFavicon from "@/components/ui/dynamic-favicon";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -52,6 +53,9 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
+  icons: {
+    icon: '/light_favicon_io/favicon.ico',
+  },
 };
 
 export default function RootLayout({
@@ -62,6 +66,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} min-h-screen bg-background font-sans antialiased`}>
+        <DynamicFavicon />
         {children}
       </body>
     </html>

@@ -8,6 +8,7 @@ import { Menu, X, Globe } from 'lucide-react';
 import { Link, usePathname } from '@/i18n/routing';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -141,20 +142,14 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <Link
-              href="/"
-              className="text-xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent"
-              style={{
-                textShadow: `0 0 20px ${getCurrentAccentColor()}40, 0 0 40px ${getCurrentAccentColor()}20`,
-                background: theme === 'light'
-                  ? `linear-gradient(135deg, ${getCurrentAccentColor()} 0%, #8b5cf6 100%)`
-                  : `linear-gradient(135deg, ${getCurrentAccentColor()} 0%, #ffffff 100%)`,
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text',
-              }}
-            >
-              Gabriel Ivan
+            <Link href="/">
+              <Image
+                src={theme === 'dark' ? '/logo/dark.png' : '/logo/light.png'}
+                alt="Gabriel Ivan Logo"
+                width={120}
+                height={48}
+                className="object-contain"
+              />
             </Link>
           </motion.div>
 

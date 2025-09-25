@@ -266,6 +266,7 @@ export function TravelInSpaceBackground() {
       {/* Additional floating elements with random movement */}
       <motion.div
         className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full opacity-10"
+        suppressHydrationWarning={true}
         style={{
           background: theme === 'light'
             ? "radial-gradient(circle, rgba(147, 51, 234, 0.15) 0%, rgba(139, 92, 246, 0.1) 50%, transparent 100%)"
@@ -287,6 +288,7 @@ export function TravelInSpaceBackground() {
       
       <motion.div
         className="absolute top-1/2 right-1/4 w-80 h-80 rounded-full opacity-8"
+        suppressHydrationWarning={true}
         style={{
           background: theme === 'light'
             ? "radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, rgba(37, 99, 235, 0.1) 50%, transparent 100%)"
@@ -308,6 +310,7 @@ export function TravelInSpaceBackground() {
       
       <motion.div
         className="absolute bottom-1/4 left-1/3 w-72 h-72 rounded-full opacity-12"
+        suppressHydrationWarning={true}
         style={{
           background: theme === 'light'
             ? "radial-gradient(circle, rgba(236, 72, 153, 0.15) 0%, rgba(219, 39, 119, 0.1) 50%, transparent 100%)"
@@ -330,6 +333,7 @@ export function TravelInSpaceBackground() {
       {/* Nebula effects */}
       <div
         className="absolute inset-0 opacity-5"
+        suppressHydrationWarning={true}
         style={{
           background: theme === 'light'
             ? `
