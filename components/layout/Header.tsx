@@ -183,8 +183,8 @@ const Header = () => {
                     damping: 20
                   }}
                 >
-                  {t(item.key as any)}
-                  
+                  {t(item.key)}
+
                   {/* Hover glow effect */}
                   <motion.div
                     className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -253,7 +253,7 @@ const Header = () => {
                     <Link
                       key={lang.code}
                       href={pathname}
-                      locale={lang.code as any}
+                      locale={lang.code}
                       className="flex items-center space-x-2 px-4 py-2 text-sm transition-all duration-300 hover:scale-105"
                       style={{
                         backgroundColor: locale === lang.code
@@ -341,8 +341,8 @@ const Header = () => {
                   }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  {t(item.key as any)}
-                  
+                  {t(item.key)}
+
                   {/* Mobile hover glow effect */}
                   <motion.div
                     className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"

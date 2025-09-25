@@ -12,6 +12,7 @@ export function ConditionalFloatingCursor() {
       return (
         'ontouchstart' in window ||
         navigator.maxTouchPoints > 0 ||
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (navigator as any).msMaxTouchPoints > 0
       );
     };

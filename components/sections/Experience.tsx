@@ -11,6 +11,7 @@ import { useRef } from 'react';
 
 const Experience = () => {
   const t = useTranslations('experience');
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const experiences = t.raw('experiences') as any[];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -72,6 +73,7 @@ const Experience = () => {
                   </div>
                   
                   <div className="space-y-6">
+                    {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                     {experience.roles.map((role: any, roleIndex: number) => (
                       <div key={roleIndex} className="space-y-3">
                         {roleIndex > 0 && <Separator className="my-4" />}
