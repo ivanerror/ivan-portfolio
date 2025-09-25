@@ -83,7 +83,6 @@ const Experience = () => {
                           <ul className="space-y-2">
                             {role.achievements.map((achievement: string, achievementIndex: number) => (
                               <li key={achievementIndex} className="flex items-start space-x-2">
-                                <CheckCircle className="h-4 w-4 text-green-500 mt-0.5 flex-shrink-0" />
                                 <span className="text-muted-foreground text-sm leading-relaxed">
                                   {achievement}
                                 </span>

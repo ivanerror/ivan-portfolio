@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { FloatingCursor } from '@/components/ui/floating-cursor';
 import { AuroraBackground } from '@/components/ui/aurora-background';
+import { Toaster } from '@/components/ui/sonner';
 import type { Metadata } from 'next';
 import { TravelInSpaceBackground } from '@/components/ui/travel-in-space-background';
 
@@ -52,16 +53,13 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className="min-h-screen bg-background font-sans antialiased">
-        <ThemeProvider>
-          <NextIntlClientProvider messages={messages}>
-            <TravelInSpaceBackground />
-            {children}
-            <FloatingCursor />
-          </NextIntlClientProvider>
-        </ThemeProvider>
-      </body>
-    </html>
+    <ThemeProvider>
+      <NextIntlClientProvider messages={messages}>
+        <TravelInSpaceBackground />
+        {children}
+        <FloatingCursor />
+        <Toaster />
+      </NextIntlClientProvider>
+    </ThemeProvider>
   );
 }

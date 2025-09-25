@@ -10,13 +10,13 @@
     "name": "Gabriel Ivan Setyaputra",
     "title": "Software Engineer",
     "location": "Tulungagung, Indonesia",
-    "bio": "Software Engineer berpengalaman dengan keahlian dalam Flutter, React.js, dan pengembangan web/mobile. Meningkatkan keterlibatan pengguna dan mengoptimalkan proses di Grab.",
-    "downloadCV": "Unduh CV",
-    "contactMe": "Hubungi Saya"
+    "bio": "🚀 Software Engineer yang penuh semangat mengubah ide menjadi kenyataan! Ahli dalam Flutter, React.js, dan pengembangan web/mobile terdepan. Menciptakan solusi revolusioner yang meningkatkan engagement pengguna hingga 155% dan mengurangi biaya operasional di Grab.",
+    "downloadCV": "Ambil CV Saya",
+    "contactMe": "Mari Berkolaborasi"
   },
   "about": {
     "title": "Tentang Saya",
-    "description": "Saya adalah seorang software engineer yang bersemangat dengan pengalaman lebih dari 3 tahun dalam mengembangkan aplikasi mobile dan web. Saya mengkhususkan diri dalam Flutter, React.js, dan pengembangan full-stack, dengan rekam jejak yang terbukti dalam meningkatkan keterlibatan pengguna dan mengoptimalkan proses pengembangan."
+    "description": "💡 Saya adalah seorang code craftsman dan arsitek digital dengan pengalaman 3+ tahun mengubah tantangan kompleks menjadi solusi yang elegan! Keahlian super saya? Menciptakan pengalaman mobile dan web yang memukau dengan Flutter, React.js, dan keajaiban full-stack. Saya tidak hanya menulis kode—saya merancang kebahagiaan pengguna dan membangun sistem yang dapat berkembang pesat! 🎨✨"
   },
   "education": {
     "title": "Pendidikan",
@@ -40,25 +40,27 @@
           {
             "title": "Mobile Engineer - Flutter (Mex App)",
             "achievements": [
-              "Meningkatkan tingkat respons positif feedback pengguna dari 79% menjadi 91%",
-              "Meningkatkan performa aplikasi mobile dan pengalaman pengguna",
-              "Mengimplementasikan fitur baru menggunakan Flutter dan Dart"
+              "💥 Meningkatkan response rate feedback pengguna dari 79% ke 91% dan engagement dari 11,5% ke 29,4%",
+              "⚡ Mengoptimalkan server load dan mengurangi biaya dengan mengintegrasikan Mex AI Assistant via WebView",
+              "🚀 Meningkatkan engagement melalui dynamic content rendering dengan JSON SDUI",
+              "🏆 Menyelesaikan 'Meal For One Insights Phase 1' sebagai Proyek Top 40 di Grab"
             ]
           },
           {
             "title": "Software Engineer - Web (Mex Onboarding)",
             "achievements": [
-              "Mengembangkan dan memelihara platform onboarding web",
-              "Mengoptimalkan alur dan proses onboarding pengguna",
-              "Mengurangi waktu penyelesaian onboarding sebesar 40%"
+              "💪 Menghemat ~900 jam kerja bulanan dengan meningkatkan fitur dynamic translation",
+              "🎨 Mengembangkan komponen Progressive Onboarding UI/UX yang mencakup 80% workflow",
+              "⚡ Mempercepat proses onboarding dengan komponen base universal"
             ]
           },
           {
             "title": "Software Engineer - Web & Flutter (POS)",
             "achievements": [
-              "Membangun sistem point-of-sale menggunakan teknologi web dan mobile",
-              "Mengurangi tiket dukungan pelanggan sebesar 53%",
-              "Mengintegrasikan sistem pembayaran dan manajemen inventori"
+              "💰 Mengurangi waktu deployment dan menghemat RM 300-500 biaya setup dengan QR scanning",
+              "🎯 Memimpin pembuatan design system dan upgrade Flutter ke v3.3.10 untuk konsistensi UI",
+              "📉 Mengurangi support tickets 53%+ dengan pengembangan diagnostic tool",
+              "🚀 Membangun landing page lead generation yang meningkatkan conversion rates"
             ]
           }
         ]
@@ -73,9 +75,9 @@
           {
             "title": "Full-Stack Developer",
             "achievements": [
-              "Mengembangkan sistem Customer Relationship Management",
-              "Dibangun dengan MERN Stack (MongoDB, Express.js, React.js, Node.js)",
-              "Mengimplementasikan fitur otentikasi pengguna dan manajemen data"
+              "Membangun sistem CRM komprehensif yang mentransformasi hubungan klien",
+              "Memanfaatkan kekuatan MERN Stack (MongoDB, Express.js, React.js, Node.js) untuk impact maksimal",
+              "Mengimplementasikan autentikasi anti peluru dan solusi manajemen data yang cerdas"
             ]
           }
         ]
@@ -103,15 +105,16 @@
       "webEngineering": "Web Engineering",
       "mongodb": "MongoDB",
       "express": "Express.js",
-      "nodejs": "Node.js"
+      "nodejs": "Node.js",
+      "mernStack": "MERN Stack"
     }
   },
   "interests": {
     "title": "Minat & Hobi",
     "items": [
-      "Bermain Gitar",
-      "Gaming",
-      "Traveling"
+      "🎸 Bermain Gitar & menciptakan keajaiban musikal",
+      "🎮 Petualangan gaming & eksplorasi digital",
+      "✈️ Traveling & penemuan budaya"
     ]
   },
   "languages": {
@@ -122,21 +125,23 @@
     }
   },
   "contact": {
-    "title": "Hubungi Saya",
-    "description": "Saya selalu terbuka untuk mendiskusikan peluang baru dan proyek menarik. Jangan ragu untuk menghubungi saya!",
+    "title": "🚀 Mari Ciptakan Sesuatu yang Luar Biasa",
+    "description": "Siap mewujudkan mimpi tech terliar Anda menjadi kenyataan? Saya selalu excited untuk terjun ke proyek-proyek breakthrough dan mengeksplorasi peluang yang mendebarkan. Jangan ragu—mari kita ciptakan keajaiban! ✨",
     "form": {
       "name": "Nama",
       "email": "Email",
       "message": "Pesan",
-      "send": "Kirim Pesan",
-      "sending": "Mengirim...",
-      "success": "Pesan berhasil dikirim!",
-      "error": "Gagal mengirim pesan. Silakan coba lagi."
+      "send": "Luncurkan Pesan",
+      "sending": "Meluncur ke angkasa...",
+      "success": "🎉 Pesan terkirim! Tunggu keajaiban segera!",
+      "successDescription": "Saya akan membalas lebih cepat dari kecepatan cahaya!",
+      "error": "🔧 Houston, kita ada masalah! Mari coba lagi.",
+      "errorDescription": "Silakan periksa koneksi Anda dan coba lagi."
     }
   },
   "footer": {
     "copyright": "© 2024 Gabriel Ivan Setyaputra. Semua hak dilindungi.",
-    "builtWith": "Dibangun dengan Next.js dan Tailwind CSS"
+    "builtWith": "⚡ Didukung oleh Next.js & dipoles dengan keajaiban Tailwind CSS"
   },
   "common": {
     "loading": "Memuat...",

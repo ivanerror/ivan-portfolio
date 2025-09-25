@@ -10,13 +10,13 @@
     "name": "Gabriel Ivan Setyaputra",
     "title": "Software Engineer",
     "location": "Tulungagung, Indonesia",
-    "bio": "Experienced Software Engineer with expertise in Flutter, React.js, and web/mobile development. Improved user engagement and optimized processes at Grab.",
-    "downloadCV": "Download CV",
-    "contactMe": "Contact Me"
+    "bio": "🚀 Passionate Software Engineer who transforms ideas into reality! Expert in Flutter, React.js, and cutting-edge web/mobile development. Delivered game-changing solutions that boosted user engagement by 155% and reduced operational costs at Grab.",
+    "downloadCV": "Get My CV",
+    "contactMe": "Let's Connect"
   },
   "about": {
     "title": "About Me",
-    "description": "I am a passionate software engineer with over 3 years of experience in developing mobile and web applications. I specialize in Flutter, React.js, and full-stack development, with a proven track record of improving user engagement and optimizing development processes."
+    "description": "💡 I'm a code craftsman and digital architect with 3+ years of turning complex challenges into elegant solutions! My superpower? Creating stunning mobile and web experiences with Flutter, React.js, and full-stack magic. I don't just write code—I engineer user delight and build systems that scale! 🎨✨"
   },
   "education": {
     "title": "Education",
@@ -40,25 +40,27 @@
           {
             "title": "Mobile Engineer - Flutter (Mex App)",
             "achievements": [
-              "Improved user feedback positive response rates from 79% to 91%",
-              "Enhanced mobile app performance and user experience",
-              "Implemented new features using Flutter and Dart"
+              "💥 Improved user feedback response rates from 79% to 91% and engagement from 11.5% to 29.4%",
+              "⚡ Optimized server load and reduced costs by integrating Mex AI Assistant via WebView",
+              "🚀 Boosted engagement through dynamic content rendering with JSON SDUI",
+              "🏆 Completed 'Meal For One Insights Phase 1' as Top 40 Project at Grab"
             ]
           },
           {
             "title": "Software Engineer - Web (Mex Onboarding)",
             "achievements": [
-              "Developed and maintained web onboarding platform",
-              "Optimized user onboarding flow and processes",
-              "Reduced onboarding completion time by 40%"
+              "💪 Saved ~900 monthly man-hours by enhancing dynamic translation features",
+              "🎨 Developed Progressive Onboarding UI/UX components covering 80% of workflows",
+              "⚡ Streamlined onboarding process with universal base components"
             ]
           },
           {
             "title": "Software Engineer - Web & Flutter (POS)",
             "achievements": [
-              "Built point-of-sale system using web and mobile technologies",
-              "Reduced customer support tickets by 53%",
-              "Integrated payment systems and inventory management"
+              "💰 Reduced deployment time and saved RM 300-500 in setup fees with QR scanning",
+              "🎯 Led design system creation and upgraded Flutter to v3.3.10 for UI consistency",
+              "📉 Reduced support tickets by 53+ % with diagnostic tool development",
+              "🚀 Built lead generation landing page improving conversion rates"
             ]
           }
         ]
@@ -73,9 +75,9 @@
           {
             "title": "Full-Stack Developer",
             "achievements": [
-              "Developed Customer Relationship Management system",
-              "Built with MERN Stack (MongoDB, Express.js, React.js, Node.js)",
-              "Implemented user authentication and data management features"
+              "Built a comprehensive CRM system that transformed client relationships",
+              "Leveraged the mighty MERN Stack (MongoDB, Express.js, React.js, Node.js) for maximum impact",
+              "Implemented bulletproof authentication and smart data management solutions"
             ]
           }
         ]
@@ -103,15 +105,16 @@
       "webEngineering": "Web Engineering",
       "mongodb": "MongoDB",
       "express": "Express.js",
-      "nodejs": "Node.js"
+      "nodejs": "Node.js",
+      "mernStack": "MERN Stack"
     }
   },
   "interests": {
     "title": "Interests & Hobbies",
     "items": [
-      "Playing Guitar",
-      "Gaming",
-      "Traveling"
+      "🎸 Playing Guitar & creating musical magic",
+      "🎮 Gaming adventures & digital exploration",
+      "✈️ Traveling & cultural discovery"
     ]
   },
   "languages": {
@@ -122,21 +125,23 @@
     }
   },
   "contact": {
-    "title": "Get In Touch",
-    "description": "I'm always open to discussing new opportunities and interesting projects. Feel free to reach out!",
+    "title": "🚀 Let's Create Something Amazing",
+    "description": "Ready to turn your wildest tech dreams into reality? I'm always excited to dive into groundbreaking projects and explore thrilling opportunities. Don't hesitate—let's make magic happen! ✨",
     "form": {
       "name": "Name",
       "email": "Email",
       "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent successfully!",
-      "error": "Failed to send message. Please try again."
+      "send": "Launch Message",
+      "sending": "Launching into space...",
+      "success": "🎉 Message delivered! Expect awesomeness soon!",
+      "successDescription": "I'll get back to you faster than light speed!",
+      "error": "🔧 Houston, we have a problem! Let's try that again.",
+      "errorDescription": "Please check your connection and try again."
     }
   },
   "footer": {
     "copyright": "© 2024 Gabriel Ivan Setyaputra. All rights reserved.",
-    "builtWith": "Built with Next.js and Tailwind CSS"
+    "builtWith": "⚡ Powered by Next.js & styled with Tailwind CSS magic"
   },
   "common": {
     "loading": "Loading...",

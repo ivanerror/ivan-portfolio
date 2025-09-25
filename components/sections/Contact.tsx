@@ -9,6 +9,7 @@ import { Mail, Phone, MapPin, Send, Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { toast } from 'sonner';
 
 const Contact = () => {
   const t = useTranslations('contact');
@@ -25,18 +26,46 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // TODO: Implement actual form submission (e.g., using Formspree or similar service)
-    console.log('Form submission:', formData);
-    
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    setIsSubmitting(false);
-    // Reset form
-    setFormData({ name: '', email: '', message: '' });
-    
-    // Show success message (you could use a toast library here)
-    alert(t('form.success'));
+    try {
+      // Formspree endpoint - Replace 'YOUR_FORM_ID' with your actual Formspree form ID
+      const response = await fetch('https://formspree.io/f/xkgqgrvb', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          _replyto: formData.email,
+          _subject: `Portfolio Contact from ${formData.name}`
+        })
+      });
+
+      if (response.ok) {
+        // Success - show success toast
+        toast.success(t('form.success'), {
+          description: t('form.successDescription'),
+          duration: 4000,
+        });
+        
+        // Reset form
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        // Error response from Formspree
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
+      // Show error toast
+      toast.error(t('form.error'), {
+        description: t('form.errorDescription'),
+        duration: 4000,
+      });
+      console.error('Form submission error:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -90,7 +119,7 @@ const Contact = () => {
                         href="mailto:gabrielivansetyaputra@gmail.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        gabrielivansetyaputra@gmail.com
+                        ivangabriel68@gmail.com
                       </a>
                     </div>
                   </div>
@@ -103,7 +132,7 @@ const Contact = () => {
                         href="tel:+6281234567890"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +62 812-3456-7890
+                        +62 822-1347-1166
                       </a>
                     </div>
                   </div>

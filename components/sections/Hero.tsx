@@ -10,8 +10,12 @@ const Hero = () => {
   const t = useTranslations('hero');
 
   const handleDownloadCV = () => {
-    // TODO: Add actual CV download link
-    console.log('Download CV');
+    const link = document.createElement('a');
+    link.href = '/CV-Ivan-Setyaputra.pdf';
+    link.download = 'CV-Gabriel-Ivan-Setyaputra.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const handleContactMe = () => {
@@ -55,8 +59,8 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-6 my-8">
             {[
               { icon: MapPin, text: t('location') },
-              { icon: Mail, text: 'gabrielivansetyaputra@gmail.com' },
-              { icon: Phone, text: '+62 812-3456-7890' }
+              { icon: Mail, text: 'ivangabriel68@gmail.com' },
+              { icon: Phone, text: '+62 822-1347-1166' }
             ].map((item, index) => (
               <div key={index} className="flex items-center space-x-2 px-4 py-2 rounded-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300">
                 <item.icon className="h-4 w-4 text-blue-600 dark:text-blue-400" />
