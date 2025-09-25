@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { FloatingCursor } from '@/components/ui/floating-cursor';
-import { AuroraBackground } from '@/components/ui/aurora-background';
 import { Toaster } from '@/components/ui/sonner';
 import type { Metadata } from 'next';
 import { TravelInSpaceBackground } from '@/components/ui/travel-in-space-background';
@@ -41,7 +40,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
 
   // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) {
     notFound();
   }
 
