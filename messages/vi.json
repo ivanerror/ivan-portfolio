@@ -4,7 +4,8 @@
     "education": "Giáo dục",
     "experience": "Kinh nghiệm",
     "skills": "Kỹ năng",
-    "contact": "Liên hệ"
+    "contact": "Liên hệ",
+    "projects": "Dự án"
   },
   "hero": {
     "name": "Gabriel Ivan Setyaputra",
@@ -152,5 +153,77 @@
     "error": "Đã xảy ra lỗi",
     "retry": "Thử lại",
     "close": "Đóng"
+  },
+  "projects": {
+    "title": "Dự án của tôi",
+    "description": "Khám phá danh mục các giải pháp sáng tạo của tôi đã thúc đẩy tác động kinh doanh thực tế trên các nền tảng di động và web.",
+    "technologies": "Công nghệ được sử dụng",
+    "keyAchievements": "Thành tựu chính",
+    "viewProject": "Xem dự án",
+    "viewCode": "Xem mã",
+    "interestedInWorking": "Quan tâm đến việc hợp tác?",
+    "getInTouch": "Liên hệ với tôi",
+    "categories": {
+      "all": "Tất cả dự án",
+      "mobile": "Di động",
+      "web": "Web",
+      "fullstack": "Full Stack"
+    },
+    "projects": {
+      "grabMexApp": {
+        "title": "Ứng dụng Grab Mex di động",
+        "description": "Ứng dụng trải nghiệm người bán cách mạng với các tính năng được hỗ trợ bởi AI và hiển thị nội dung động đã chuyển đổi sự tham gia của người dùng trên Đông Nam Á.",
+        "achievements": [
+          "Tăng tỷ lệ phản hồi phản hồi của người dùng từ 79% lên 91%",
+          "Tăng cường sự tham gia từ 11.5% lên 29.4% thông qua nội dung động",
+          "Giảm tải máy chủ và chi phí bằng cách tích hợp Trợ lý AI"
+        ]
+      },
+      "grabPos": {
+        "title": "Grab - Hubbo POS",
+        "description": "Giải pháp Điểm bán hàng toàn diện với ứng dụng di động Flutter và bảng điều khiển web React, tính năng tích hợp mã QR và kiến trúc hệ thống thiết kế.",
+        "achievements": [
+          "Giảm thời gian triển khai và tiết kiệm RM 300-500 trong phí thiết lập",
+          "Dẫn dắt việc tạo hệ thống thiết kế để nhất quán UI",
+          "Giảm vé hỗ trợ 53% với công cụ chẩn đoán"
+        ]
+      },
+      "mexOnboarding": {
+        "title": "Nền tảng giới thiệu Mex",
+        "description": "Ứng dụng web tiến bộ để giới thiệu người bán với các tính năng dịch động và các thành phần UI phổ quát bao phủ 80% quy trình làm việc.",
+        "achievements": [
+          "Tiết kiệm ~900 giờ làm việc hàng tháng với các tính năng nâng cao",
+          "Phát triển các thành phần UI/UX giới thiệu tiến bộ",
+          "Tăng tốc quá trình giới thiệu với các thành phần cơ sở phổ quát"
+        ]
+      },
+      "crmSystem": {
+        "title": "Hệ thống CRM toàn diện",
+        "description": "Hệ thống Quản lý quan hệ khách hàng full-stack được xây dựng với ngăn xếp MERN, tính năng xác thực mạnh mẽ và quản lý dữ liệu thông minh.",
+        "achievements": [
+          "Chuyển đổi các quy trình quản lý quan hệ khách hàng",
+          "Triển khai hệ thống xác thực chống đạn",
+          "Xây dựng kiến trúc quản lý dữ liệu có thể mở rộng"
+        ]
+      },
+      "portfolio": {
+        "title": "Trang web danh mục cá nhân",
+        "description": "Trang web danh mục hiện đại và đáp ứng được xây dựng với Next.js, tính năng quốc tế hóa, chế độ tối và hoạt hình mượt mà.",
+        "achievements": [
+          "Hỗ trợ đa ngôn ngữ với next-intl",
+          "Thiết kế đáp ứng với Tailwind CSS",
+          "Hoạt hình mượt mà với Framer Motion"
+        ]
+      },
+      "taskManagement": {
+        "title": "Ứng dụng quản lý nhiệm vụ",
+        "description": "Ứng dụng web tiến bộ để quản lý nhiệm vụ với cập nhật thời gian thực, chức năng kéo và thả và hỗ trợ ngoại tuyến.",
+        "achievements": [
+          "Tính năng hợp tác thời gian thực",
+          "Kiến trúc ngoại tuyến đầu tiên với PWA",
+          "Giao diện kéo và thả trực quan"
+        ]
+      }
+    }
   }
 }

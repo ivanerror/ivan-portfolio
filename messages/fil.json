@@ -4,7 +4,8 @@
     "education": "Edukasyon",
     "experience": "Karanasan",
     "skills": "Mga Kasanayan",
-    "contact": "Makipag-ugnayan"
+    "contact": "Makipag-ugnayan",
+    "projects": "Mga Proyekto"
   },
   "hero": {
     "name": "Gabriel Ivan Setyaputra",
@@ -152,5 +153,77 @@
     "error": "Nagkaroon ng error",
     "retry": "Subukan Uli",
     "close": "Isara"
+  },
+  "projects": {
+    "title": "Aking Mga Proyekto",
+    "description": "Galugarin ang aking portfolio ng mga innovative na solusyon na nagdulot ng real na business impact sa mobile at web platforms.",
+    "technologies": "Mga Teknologyang Ginamit",
+    "keyAchievements": "Mga Pangunahing Pagtatamo",
+    "viewProject": "Tingnan ang Proyekto",
+    "viewCode": "Tingnan ang Code",
+    "interestedInWorking": "Interesado sa pagtatrabaho nang magkasama?",
+    "getInTouch": "Makipag-ugnayan",
+    "categories": {
+      "all": "Lahat ng Mga Proyekto",
+      "mobile": "Mobile",
+      "web": "Web",
+      "fullstack": "Full Stack"
+    },
+    "projects": {
+      "grabMexApp": {
+        "title": "Grab Mex Mobile App",
+        "description": "Rebolusyonaryong merchant experience app na may AI-powered na mga feature at dynamic content rendering na nag-transform ng user engagement sa Southeast Asia.",
+        "achievements": [
+          "Pinataas ang user feedback response rates mula 79% hanggang 91%",
+          "Pinataas ang engagement mula 11.5% hanggang 29.4% sa pamamagitan ng dynamic content",
+          "Binababa ang server load at gastos sa pamamagitan ng AI Assistant integration"
+        ]
+      },
+      "grabPos": {
+        "title": "Grab - Hubbo POS",
+        "description": "Komprehensibong Point of Sale solution na may Flutter mobile app at React web dashboard, na may QR code integration at design system architecture.",
+        "achievements": [
+          "Binababa ang deployment time at na-save ang RM 300-500 sa setup fees",
+          "Pinamunuan ang design system creation para sa UI consistency",
+          "Binababa ang support tickets ng 53% sa pamamagitan ng diagnostic tools"
+        ]
+      },
+      "mexOnboarding": {
+        "title": "Mex Onboarding Platform",
+        "description": "Progressive web application para sa merchant onboarding na may dynamic translation features at universal UI components na sumasaklaw sa 80% ng workflows.",
+        "achievements": [
+          "Na-save ang ~900 buwanang man-hours sa pamamagitan ng pagpapahusay ng features",
+          "Binuo ang Progressive Onboarding UI/UX components",
+          "Pinabilis ang onboarding process gamit ang universal base components"
+        ]
+      },
+      "crmSystem": {
+        "title": "Komprehensibong CRM System",
+        "description": "Full-stack Customer Relationship Management system na binuo gamit ang MERN stack, na may robust authentication at smart data management.",
+        "achievements": [
+          "Nag-transform ng client relationship management processes",
+          "Ipinatupad ang bulletproof authentication system",
+          "Binuo ang scalable data management architecture"
+        ]
+      },
+      "portfolio": {
+        "title": "Personal Portfolio Website",
+        "description": "Modern, responsive portfolio website na binuo gamit ang Next.js, na may internationalization, dark mode, at smooth animations.",
+        "achievements": [
+          "Multi-language support gamit ang next-intl",
+          "Responsive design gamit ang Tailwind CSS",
+          "Smooth animations gamit ang Framer Motion"
+        ]
+      },
+      "taskManagement": {
+        "title": "Task Management App",
+        "description": "Progressive Web Application para sa task management na may real-time updates, drag-and-drop functionality, at offline support.",
+        "achievements": [
+          "Real-time collaboration features",
+          "Offline-first architecture gamit ang PWA",
+          "Intuitive drag-and-drop interface"
+        ]
+      }
+    }
   }
 }

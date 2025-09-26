@@ -4,7 +4,8 @@
     "education": "Pendidikan",
     "experience": "Pengalaman",
     "skills": "Keahlian",
-    "contact": "Kontak"
+    "contact": "Kontak",
+    "projects": "Proyek"
   },
   "hero": {
     "name": "Gabriel Ivan Setyaputra",
@@ -152,5 +153,77 @@
     "error": "Terjadi kesalahan",
     "retry": "Coba Lagi",
     "close": "Tutup"
+  },
+  "projects": {
+    "title": "Proyek Saya",
+    "description": "Jelajahi portofolio solusi inovatif saya yang telah mendorong dampak bisnis nyata di platform mobile dan web.",
+    "technologies": "Teknologi yang Digunakan",
+    "keyAchievements": "Pencapaian Utama",
+    "viewProject": "Lihat Proyek",
+    "viewCode": "Lihat Kode",
+    "interestedInWorking": "Tertarik untuk bekerja sama?",
+    "getInTouch": "Hubungi Saya",
+    "categories": {
+      "all": "Semua Proyek",
+      "mobile": "Mobile",
+      "web": "Web",
+      "fullstack": "Full Stack"
+    },
+    "projects": {
+      "grabMexApp": {
+        "title": "Aplikasi Grab Mex Mobile",
+        "description": "Aplikasi pengalaman pedagang revolusioner dengan fitur AI-powered dan rendering konten dinamis yang mentransformasi engagement pengguna di Asia Tenggara.",
+        "achievements": [
+          "Meningkatkan response rate feedback pengguna dari 79% ke 91%",
+          "Meningkatkan engagement dari 11.5% ke 29.4% melalui konten dinamis",
+          "Mengurangi beban server dan biaya dengan integrasi AI Assistant"
+        ]
+      },
+      "grabPos": {
+        "title": "Grab - Hubbo POS",
+        "description": "Solusi Point of Sale komprehensif dengan aplikasi mobile Flutter dan dashboard web React, fitur integrasi kode QR dan arsitektur sistem desain.",
+        "achievements": [
+          "Mengurangi waktu deployment dan menghemat RM 300-500 dalam biaya setup",
+          "Memimpin pembuatan sistem desain untuk konsistensi UI",
+          "Mengurangi tiket support sebesar 53% dengan alat diagnostik"
+        ]
+      },
+      "mexOnboarding": {
+        "title": "Platform Onboarding Mex",
+        "description": "Aplikasi web progresif untuk onboarding pedagang dengan fitur terjemahan dinamis dan komponen UI universal yang mencakup 80% alur kerja.",
+        "achievements": [
+          "Menghemat ~900 jam kerja bulanan dengan fitur yang ditingkatkan",
+          "Membangun komponen UI/UX Onboarding Progresif",
+          "Mempercepat proses onboarding dengan komponen base universal"
+        ]
+      },
+      "crmSystem": {
+        "title": "Sistem CRM Komprehensif",
+        "description": "Sistem Manajemen Hubungan Pelanggan full-stack yang dibangun dengan stack MERN, fitur autentikasi yang kuat dan manajemen data cerdas.",
+        "achievements": [
+          "Mentrasformasi proses manajemen hubungan pelanggan",
+          "Mengimplementasikan sistem autentikasi yang kuat",
+          "Membangun arsitektur manajemen data yang dapat diskalakan"
+        ]
+      },
+      "portfolio": {
+        "title": "Situs Web Portofolio Pribadi",
+        "description": "Situs web portofolio modern dan responsif yang dibangun dengan Next.js, fitur internasionalisasi, mode gelap, dan animasi halus.",
+        "achievements": [
+          "Dukungan multi-bahasa dengan next-intl",
+          "Desain responsif dengan Tailwind CSS",
+          "Animasi halus dengan Framer Motion"
+        ]
+      },
+      "taskManagement": {
+        "title": "Aplikasi Manajemen Tugas",
+        "description": "Aplikasi Web Progresif untuk manajemen tugas dengan pembaruan real-time, fungsionalitas drag-and-drop, dan dukungan offline.",
+        "achievements": [
+          "Fitur kolaborasi real-time",
+          "Arsitektur first-offline dengan PWA",
+          "Antarmuka drag-and-drop yang intuitif"
+        ]
+      }
+    }
   }
 }
