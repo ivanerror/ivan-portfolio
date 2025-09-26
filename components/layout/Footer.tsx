@@ -27,24 +27,24 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <div className="flex space-x-6">
               <a
-                href="mailto:gabrielivansetyaputra@gmail.com"
+                href="mailto:ivangabriel68@gmail.com"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
-                Email
+                ivangabriel68@gmail.com
               </a>
               <a
-                href="tel:+6281234567890"
+                href="tel:+62082213471166"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Phone"
               >
-                Phone
+                +62 822-1347-1166
               </a>
             </div>
             
             <div className="text-center">
               <p className="text-xs text-muted-foreground">
-                Tulungagung, Indonesia
+                Indonesia
               </p>
             </div>
           </div>

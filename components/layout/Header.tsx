@@ -25,12 +25,16 @@ const Header = () => {
   }, []);
 
   const navigation = [
+    { key: 'projects', href: '/projects', isRoute: true },
     { key: 'about', href: '#about' },
     { key: 'education', href: '#education' },
     { key: 'experience', href: '#experience' },
     { key: 'skills', href: '#skills' },
     { key: 'contact', href: '#contact' },
   ];
+
+  // Check if we're on the home page
+  const isHomePage = pathname === '/';
 
   const languages = [
     { code: 'en', label: 'English', flag: '🇺🇸' },
@@ -87,6 +91,21 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const handleNavigation = (item: { key: string; href: string; isRoute?: boolean }) => {
+    if (item.isRoute) {
+      // This will be handled by Link component, just close mobile menu
+      setIsMenuOpen(false);
+    } else {
+      if (isHomePage) {
+        // We're on home page, scroll to section
+        scrollToSection(item.href);
+      } else {
+        // We're on another page, navigation will be handled by Link component
+        setIsMenuOpen(false);
+      }
+    }
+  };
+
   if (!mounted) {
     return (
       <header className="fixed top-0 left-0 right-0 z-50">
@@ -137,7 +156,7 @@ const Header = () => {
           ease: "easeInOut",
         }}
       />
-      
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -160,41 +179,128 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              {navigation.map((item, index) => (
-                <motion.button
-                  key={item.key}
-                  onClick={() => scrollToSection(item.href)}
-                  className="px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 relative group"
-                  style={{
-                    color: theme === 'light' ? '#374151' : '#d1d5db',
-                  }}
-                  whileHover={{
-                    scale: 1.05,
-                    textShadow: `0 0 10px ${getCurrentAccentColor()}60`,
-                  }}
-                  whileTap={{ scale: 0.95 }}
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{
-                    delay: index * 0.1,
-                    type: "spring",
-                    stiffness: 300,
-                    damping: 20
-                  }}
-                >
-                  {t(item.key)}
+              {navigation.map((item, index) => {
+                if (item.isRoute) {
+                  return (
+                    <Link
+                      key={item.key}
+                      href={item.href}
+                      className="px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 relative group inline-block"
+                      style={{
+                        color: theme === 'light' ? '#374151' : '#d1d5db',
+                      }}
+                    >
+                      <motion.div
+                        whileHover={{
+                          scale: 1.05,
+                          textShadow: `0 0 10px ${getCurrentAccentColor()}60`,
+                        }}
+                        whileTap={{ scale: 0.95 }}
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{
+                          delay: index * 0.1,
+                          type: "spring",
+                          stiffness: 300,
+                          damping: 20
+                        }}
+                      >
+                        {t(item.key)}
 
-                  {/* Hover glow effect */}
-                  <motion.div
-                    className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    style={{
-                      background: `linear-gradient(135deg, ${getCurrentAccentColor()}10 0%, transparent 100%)`,
-                      border: `1px solid ${getCurrentAccentColor()}30`,
-                      boxShadow: `0 0 15px ${getCurrentAccentColor()}20`,
-                    }}
-                  />
-                </motion.button>
-              ))}
+                        {/* Hover glow effect */}
+                        <motion.div
+                          className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                          style={{
+                            background: `linear-gradient(135deg, ${getCurrentAccentColor()}10 0%, transparent 100%)`,
+                            border: `1px solid ${getCurrentAccentColor()}30`,
+                            boxShadow: `0 0 15px ${getCurrentAccentColor()}20`,
+                          }}
+                        />
+                      </motion.div>
+                    </Link>
+                  );
+                }
+
+                // For anchor navigation items
+                if (isHomePage) {
+                  // On home page: render as button with scroll behavior
+                  return (
+                    <motion.button
+                      key={item.key}
+                      onClick={() => scrollToSection(item.href)}
+                      className="px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 relative group"
+                      style={{
+                        color: theme === 'light' ? '#374151' : '#d1d5db',
+                      }}
+                      whileHover={{
+                        scale: 1.05,
+                        textShadow: `0 0 10px ${getCurrentAccentColor()}60`,
+                      }}
+                      whileTap={{ scale: 0.95 }}
+                      initial={{ opacity: 0, y: -20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{
+                        delay: index * 0.1,
+                        type: "spring",
+                        stiffness: 300,
+                        damping: 20
+                      }}
+                    >
+                      {t(item.key)}
+
+                      {/* Hover glow effect */}
+                      <motion.div
+                        className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        style={{
+                          background: `linear-gradient(135deg, ${getCurrentAccentColor()}10 0%, transparent 100%)`,
+                          border: `1px solid ${getCurrentAccentColor()}30`,
+                          boxShadow: `0 0 15px ${getCurrentAccentColor()}20`,
+                        }}
+                      />
+                    </motion.button>
+                  );
+                } else {
+                  // On other pages: render as Link to navigate to home with anchor
+                  return (
+                    <Link
+                      key={item.key}
+                      href={`/${item.href}`}
+                      className="px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 relative group inline-block"
+                      style={{
+                        color: theme === 'light' ? '#374151' : '#d1d5db',
+                      }}
+                    >
+                      <motion.div
+                        whileHover={{
+                          scale: 1.05,
+                          textShadow: `0 0 10px ${getCurrentAccentColor()}60`,
+                        }}
+                        whileTap={{ scale: 0.95 }}
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{
+                          delay: index * 0.1,
+                          type: "spring",
+                          stiffness: 300,
+                          damping: 20
+                        }}
+                      >
+                        {t(item.key)}
+
+                        {/* Hover glow effect */}
+                        <motion.div
+                          className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                          style={{
+                            background: `linear-gradient(135deg, ${getCurrentAccentColor()}10 0%, transparent 100%)`,
+                            border: `1px solid ${getCurrentAccentColor()}30`,
+                            boxShadow: `0 0 15px ${getCurrentAccentColor()}20`,
+                          }}
+                        />
+                      </motion.div>
+                    </Link>
+                  );
+                }
+              })}
             </div>
           </nav>
 
@@ -322,36 +428,115 @@ const Header = () => {
                   : 'rgba(0, 0, 0, 0.2)',
               }}
             >
-              {navigation.map((item, index) => (
-                <motion.button
-                  key={item.key}
-                  onClick={() => scrollToSection(item.href)}
-                  className="block px-3 py-2 rounded-md text-base font-medium w-full text-left transition-all duration-300 relative group"
-                  style={{
-                    color: theme === 'light' ? '#374151' : '#d1d5db',
-                  }}
-                  initial={{ x: -20, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{ delay: index * 0.1 }}
-                  whileHover={{
-                    scale: 1.02,
-                    x: 5,
-                    textShadow: `0 0 10px ${getCurrentAccentColor()}60`,
-                  }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  {t(item.key)}
+              {navigation.map((item, index) => {
+                if (item.isRoute) {
+                  return (
+                    <Link
+                      key={item.key}
+                      href={item.href}
+                      className="block px-3 py-2 rounded-md text-base font-medium w-full text-left transition-all duration-300 relative group"
+                      style={{
+                        color: theme === 'light' ? '#374151' : '#d1d5db',
+                      }}
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      <motion.div
+                        initial={{ x: -20, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
+                        transition={{ delay: index * 0.1 }}
+                        whileHover={{
+                          scale: 1.02,
+                          x: 5,
+                          textShadow: `0 0 10px ${getCurrentAccentColor()}60`,
+                        }}
+                        whileTap={{ scale: 0.98 }}
+                      >
+                        {t(item.key)}
 
-                  {/* Mobile hover glow effect */}
-                  <motion.div
-                    className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    style={{
-                      background: `linear-gradient(135deg, ${getCurrentAccentColor()}15 0%, transparent 100%)`,
-                      border: `1px solid ${getCurrentAccentColor()}20`,
-                    }}
-                  />
-                </motion.button>
-              ))}
+                        {/* Mobile hover glow effect */}
+                        <motion.div
+                          className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                          style={{
+                            background: `linear-gradient(135deg, ${getCurrentAccentColor()}15 0%, transparent 100%)`,
+                            border: `1px solid ${getCurrentAccentColor()}20`,
+                          }}
+                        />
+                      </motion.div>
+                    </Link>
+                  );
+                }
+
+                // For anchor navigation items
+                if (isHomePage) {
+                  // On home page: render as button with scroll behavior
+                  return (
+                    <motion.button
+                      key={item.key}
+                      onClick={() => scrollToSection(item.href)}
+                      className="block px-3 py-2 rounded-md text-base font-medium w-full text-left transition-all duration-300 relative group"
+                      style={{
+                        color: theme === 'light' ? '#374151' : '#d1d5db',
+                      }}
+                      initial={{ x: -20, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ delay: index * 0.1 }}
+                      whileHover={{
+                        scale: 1.02,
+                        x: 5,
+                        textShadow: `0 0 10px ${getCurrentAccentColor()}60`,
+                      }}
+                      whileTap={{ scale: 0.98 }}
+                    >
+                      {t(item.key)}
+
+                      {/* Mobile hover glow effect */}
+                      <motion.div
+                        className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        style={{
+                          background: `linear-gradient(135deg, ${getCurrentAccentColor()}15 0%, transparent 100%)`,
+                          border: `1px solid ${getCurrentAccentColor()}20`,
+                        }}
+                      />
+                    </motion.button>
+                  );
+                } else {
+                  // On other pages: render as Link to navigate to home with anchor
+                  return (
+                    <Link
+                      key={item.key}
+                      href={`/${item.href}`}
+                      className="block px-3 py-2 rounded-md text-base font-medium w-full text-left transition-all duration-300 relative group"
+                      style={{
+                        color: theme === 'light' ? '#374151' : '#d1d5db',
+                      }}
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      <motion.div
+                        initial={{ x: -20, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
+                        transition={{ delay: index * 0.1 }}
+                        whileHover={{
+                          scale: 1.02,
+                          x: 5,
+                          textShadow: `0 0 10px ${getCurrentAccentColor()}60`,
+                        }}
+                        whileTap={{ scale: 0.98 }}
+                      >
+                        {t(item.key)}
+
+                        {/* Mobile hover glow effect */}
+                        <motion.div
+                          className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                          style={{
+                            background: `linear-gradient(135deg, ${getCurrentAccentColor()}15 0%, transparent 100%)`,
+                            border: `1px solid ${getCurrentAccentColor()}20`,
+                          }}
+                        />
+                      </motion.div>
+                    </Link>
+                  );
+                }
+              })}
             </div>
           </motion.div>
         )}
