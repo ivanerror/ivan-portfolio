@@ -11,13 +11,13 @@
     "name": "Gabriel Ivan Setyaputra",
     "title": "Software Engineer",
     "location": "Tulungagung, Indonesia",
-    "bio": "🚀 Passionate Software Engineer who transforms ideas into reality! Expert in Flutter, React.js, and cutting-edge web/mobile development. Delivered game-changing solutions that boosted user engagement by 155% and reduced operational costs at Grab.",
+    "bio": "Software Engineer with experience in Flutter and React.js across mobile and web. Delivered improvements such as raising feedback response rates from 79% to 91%, increasing engagement from 11.5% to 29.4%, saving ~900 monthly man-hours in onboarding, and reducing deployment costs by RM 300–500.",
     "downloadCV": "Get My CV",
     "contactMe": "Let's Connect"
   },
   "about": {
     "title": "About Me",
-    "description": "💡 I'm a code craftsman and digital architect with 3+ years of turning complex challenges into elegant solutions! My superpower? Creating stunning mobile and web experiences with Flutter, React.js, and full-stack magic. I don't just write code—I engineer user delight and build systems that scale! 🎨✨"
+    "description": "I build reliable mobile and web solutions using Flutter, React.js, and TypeScript. My focus is on practical impact: improving engagement, reducing operational effort, and ensuring consistent UI/UX. I enjoy collaborating across teams and turning requirements into maintainable software."
   },
   "education": {
     "title": "Education",
@@ -25,14 +25,14 @@
     "degree": "Bachelor of Science in Informatics Engineering",
     "gpa": "GPA: 3.6",
     "location": "Jakarta, Indonesia",
-    "year": "September 2018 - May 2022"
+    "year": "2022"
   },
   "experience": {
     "title": "Experience",
     "current": "Present",
     "experiences": [
       {
-        "company": "PT. Kudo Teknologi Indonesia (Grab)",
+        "company": "PT. Kudo Teknologi Indonesia",
         "position": "Software Engineer",
         "type": "Full-time",
         "location": "Jakarta, Indonesia (Remote)",
@@ -41,27 +41,27 @@
           {
             "title": "Mobile Engineer - Flutter (Mex App)",
             "achievements": [
-              "💥 Improved user feedback response rates from 79% to 91% and engagement from 11.5% to 29.4%",
-              "⚡ Optimized server load and reduced costs by integrating Mex AI Assistant via WebView",
-              "🚀 Boosted engagement through dynamic content rendering with JSON SDUI",
-              "🏆 Completed 'Meal For One Insights Phase 1' as Top 40 Project at Grab"
+              "💥 Improved user feedback response rates from 79% to 91% and engagement metrics from 11.5% to 29.4% by engineering the feedback flow.",
+              "⚡ Optimized server load and reduced costs by integrating Mex AI Assistant via WebView and creating a web-based LottiePlayer.",
+              "🚀 Boosted engagement through dynamic content rendering and custom components using JSON SDUI.",
+              "🏆 Contributed to benchmarking features to enhance merchant operational insights.",
+              "🏆 Completed \"Meal For One Insights Phase 1\" as a Top 40 Project at Grab."
             ]
           },
           {
             "title": "Software Engineer - Web (Mex Onboarding)",
             "achievements": [
-              "💪 Saved ~900 monthly man-hours by enhancing dynamic translation features",
-              "🎨 Developed Progressive Onboarding UI/UX components covering 80% of workflows",
-              "⚡ Streamlined onboarding process with universal base components"
+              "💪 Saved approximately 900 monthly man-hours by enhancing dynamic translation features on the QualityCheckErrorScreen, streamlining the onboarding process.",
+              "🎨 Developed Progressive Onboarding UI/UX components covering around 80% of workflows with a universal base."
             ]
           },
           {
             "title": "Software Engineer - Web & Flutter (POS)",
             "achievements": [
-              "💰 Reduced deployment time and saved RM 300-500 in setup fees with QR scanning",
-              "🎯 Led design system creation and upgraded Flutter to v3.3.10 for UI consistency",
-              "📉 Reduced support tickets by 53+ % with diagnostic tool development",
-              "🚀 Built lead generation landing page improving conversion rates"
+              "💰 Reduced deployment time and saved RM 300–500 in setup fees by enabling QR code scanning functionality on POS devices.",
+              "🎯 Led the creation of a design system and upgraded Flutter to version 3.3.10, ensuring UI/UX consistency across the POS app.",
+              "📉 Reduced support tickets by over 53% by contributing to the development of a diagnostic tool.",
+              "🚀 Developed a landing page for lead generation, improving lead assignment and conversion rates."
             ]
           }
         ]
@@ -74,11 +74,11 @@
         "period": "Jan 2021 - Feb 2022",
         "roles": [
           {
-            "title": "Full-Stack Developer",
+            "title": "CRM Project (MERN Stack)",
             "achievements": [
-              "Built a comprehensive CRM system that transformed client relationships",
-              "Leveraged the mighty MERN Stack (MongoDB, Express.js, React.js, Node.js) for maximum impact",
-              "Implemented bulletproof authentication and smart data management solutions"
+              "Built a Customer Relationship Management application using MongoDB, Express.js, React.js, and Node.js.",
+              "Implemented core CRUD features and basic authentication.",
+              "Developed REST APIs and client-side views aligned with project requirements."
             ]
           }
         ]
@@ -113,44 +113,40 @@
   "interests": {
     "title": "Interests & Hobbies",
     "items": [
-      "🎸 Playing Guitar",
-      "🎮 Gaming",
-      "✈️ Traveling"
+      "Playing Guitar",
+      "Gaming",
+      "Traveling"
     ]
   },
   "languages": {
     "title": "Languages",
     "items": {
       "english": "English",
-      "indonesian": "Indonesian",
-      "malay": "Malay",
-      "thai": "Thai",
-      "vietnamese": "Vietnamese",
-      "filipino": "Filipino"
+      "indonesian": "Indonesian"
     }
   },
   "contact": {
-    "title": "🚀 Let's Create Something Amazing",
-    "description": "Ready to turn your wildest tech dreams into reality? I'm always excited to dive into groundbreaking projects and explore thrilling opportunities. Don't hesitate—let's make magic happen! ✨",
+    "title": "Let's Get In Touch",
+    "description": "Open to software engineering roles and collaborations. If my experience aligns with your needs, feel free to reach out.",
     "form": {
       "name": "Name",
       "email": "Email",
       "message": "Message",
-      "send": "Launch Message",
-      "sending": "Launching into space...",
-      "success": "🎉 Message delivered! Expect awesomeness soon!",
-      "successDescription": "I'll get back to you faster than light speed!",
-      "error": "🔧 Houston, we have a problem! Let's try that again.",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully.",
+      "successDescription": "I'll follow up shortly.",
+      "error": "There was an error. Please try again.",
       "errorDescription": "Please check your connection and try again."
     }
   },
   "footer": {
     "copyright": "© 2024 Gabriel Ivan Setyaputra. All rights reserved.",
-    "builtWith": "⚡ Powered by Next.js & styled with Tailwind CSS magic"
+    "builtWith": "Built with Next.js and Tailwind CSS"
   },
   "projects": {
     "title": "My Projects",
-    "description": "Explore my portfolio of innovative solutions that have driven real business impact across mobile and web platforms.",
+    "description": "Selected work across mobile and web reflecting real contributions and measurable outcomes.",
     "technologies": "Technologies Used",
     "keyAchievements": "Key Achievements",
     "viewProject": "View Project",
@@ -166,56 +162,56 @@
     "projects": {
       "grabMexApp": {
         "title": "Grab Mex Mobile App",
-        "description": "Revolutionary merchant experience app with AI-powered features and dynamic content rendering that transformed user engagement across Southeast Asia.",
+        "description": "Merchant experience app featuring AI Assistant integration (WebView) and dynamic content via JSON SDUI.",
         "achievements": [
-          "Boosted user feedback response rates from 79% to 91%",
-          "Increased engagement from 11.5% to 29.4% through dynamic content",
-          "Reduced server load and costs with AI Assistant integration"
+          "Improved user feedback response rates from 79% to 91%.",
+          "Increased engagement from 11.5% to 29.4% through dynamic content.",
+          "Reduced server load and costs with AI Assistant integration and a web-based LottiePlayer."
         ]
       },
       "grabPos": {
         "title": "Grab - Hubbo POS",
-        "description": "Comprehensive Point of Sale solution with Flutter mobile app and React web dashboard, featuring QR code integration and design system architecture.",
+        "description": "Point of Sale solution with Flutter app and React web modules, including QR code support and a shared design system.",
         "achievements": [
-          "Reduced deployment time and saved RM 300-500 in setup fees",
-          "Led design system creation for UI consistency",
-          "Reduced support tickets by 53% with diagnostic tools"
+          "Reduced deployment time and saved RM 300–500 in setup fees.",
+          "Led design system creation and upgraded Flutter to v3.3.10 for UI consistency.",
+          "Reduced support tickets by over 53% with a diagnostic tool."
         ]
       },
       "mexOnboarding": {
         "title": "Mex Onboarding Platform",
-        "description": "Progressive web application for merchant onboarding with dynamic translation features and universal UI components covering 80% of workflows.",
+        "description": "Web modules for merchant onboarding with dynamic translation features and universal UI components.",
         "achievements": [
-          "Saved ~900 monthly man-hours with enhanced features",
-          "Built Progressive Onboarding UI/UX components",
-          "Streamlined onboarding with universal base components"
+          "Saved approximately 900 monthly man-hours with enhanced translation features.",
+          "Built Progressive Onboarding UI/UX components covering around 80% of workflows.",
+          "Streamlined onboarding with a universal component base."
         ]
       },
       "crmSystem": {
         "title": "Comprehensive CRM System",
-        "description": "Full-stack Customer Relationship Management system built with MERN stack, featuring robust authentication and intelligent data management.",
+        "description": "Customer Relationship Management application built with the MERN stack.",
         "achievements": [
-          "Transformed client relationship management processes",
-          "Implemented bulletproof authentication system",
-          "Built scalable data management architecture"
+          "Designed data models in MongoDB and built REST APIs with Express.js/Node.js.",
+          "Implemented authentication and core CRUD features.",
+          "Built React.js interfaces for key modules."
         ]
       },
       "portfolio": {
         "title": "Personal Portfolio Website",
-        "description": "Modern, responsive portfolio website built with Next.js, featuring internationalization, dark mode, and smooth animations.",
+        "description": "Portfolio website built with Next.js, featuring internationalization and dark mode.",
         "achievements": [
-          "Multi-language support with next-intl",
-          "Responsive design with Tailwind CSS",
-          "Smooth animations with Framer Motion"
+          "Multi-language support with next-intl.",
+          "Responsive design with Tailwind CSS.",
+          "Smooth transitions with Framer Motion."
         ]
       },
       "taskManagement": {
         "title": "Task Management App",
-        "description": "Progressive Web Application for task management with real-time updates, drag-and-drop functionality, and offline support.",
+        "description": "Prototype task management app with real-time updates and offline support.",
         "achievements": [
-          "Real-time collaboration features",
-          "Offline-first architecture with PWA",
-          "Intuitive drag-and-drop interface"
+          "Real-time updates.",
+          "Offline-first PWA approach.",
+          "Drag-and-drop interface."
         ]
       }
     }

@@ -1,9 +1,9 @@
 {
   "navigation": {
-    "about": "Tungkol sa Akin",
+    "about": "Tungkol Sa Akin",
     "education": "Edukasyon",
     "experience": "Karanasan",
-    "skills": "Mga Kasanayan",
+    "skills": "Kasanayan",
     "contact": "Makipag-ugnayan",
     "projects": "Mga Proyekto"
   },
@@ -11,13 +11,13 @@
     "name": "Gabriel Ivan Setyaputra",
     "title": "Software Engineer",
     "location": "Tulungagung, Indonesia",
-    "bio": "🚀 Masigasig na Software Engineer na nagiging realidad ang mga ideya! Eksperto sa Flutter, React.js, at nangungunang pag-unlad ng web/mobile. Naghahatid ng mga solusyon na nagbabago ng laro na nagtaas ng user engagement ng 155% at binababa ang mga gastos sa operasyon sa Grab.",
-    "downloadCV": "Kunin ang Aking CV",
+    "bio": "Software Engineer na may karanasan sa Flutter at React.js para sa mobile at web. Naghatid ng mga pagpapabuti tulad ng pagtaas ng feedback response rates mula 79% hanggang 91%, pagtaas ng engagement mula 11.5% hanggang 29.4%, pag-save ng ~900 monthly man-hours sa onboarding, at pagbawas ng deployment costs ng RM 300–500.",
+    "downloadCV": "Kunin Ang Aking CV",
     "contactMe": "Magkonekta Tayo"
   },
   "about": {
-    "title": "Tungkol sa Akin",
-    "description": "💡 Ako ay isang code craftsman at digital architect na may 3+ taong karanasan sa pagbabago ng mga kumplikadong hamon sa mga elegante na solusyon! Ang aking superpower? Paglikha ng mga kamangha-manghang mobile at web experiences gamit ang Flutter, React.js, at full-stack magic. Hindi ako nag-susulat lamang ng code—ako ay nag-e-engineer ng user delight at nagtatayo ng mga sistema na maaaring mag-scale! 🎨✨"
+    "title": "Tungkol Sa Akin",
+    "description": "Gumagawa ako ng maaasahang mobile at web na solusyon gamit ang Flutter, React.js, at TypeScript. Nakatuon ako sa praktikal na epekto: pagpapahusay ng engagement, pagbabawas ng operational na gawain, at pagtitiyak ng pare‑parehong UI/UX. Gustung‑gusto kong makipagtulungan sa iba't ibang koponan at gawing maintainable ang mga requirements bilang software."
   },
   "education": {
     "title": "Edukasyon",
@@ -25,43 +25,43 @@
     "degree": "Bachelor of Science in Informatics Engineering",
     "gpa": "GPA: 3.6",
     "location": "Jakarta, Indonesia",
-    "year": "September 2018 - Mayo 2022"
+    "year": "2022"
   },
   "experience": {
     "title": "Karanasan",
-    "current": "Kasalukuyan",
+    "current": "Present",
     "experiences": [
       {
-        "company": "PT. Kudo Teknologi Indonesia (Grab)",
+        "company": "PT. Kudo Teknologi Indonesia",
         "position": "Software Engineer",
         "type": "Full-time",
         "location": "Jakarta, Indonesia (Remote)",
-        "period": "Mayo 2022 - Hunyo 2025",
+        "period": "May 2022 - June 2025",
         "roles": [
           {
             "title": "Mobile Engineer - Flutter (Mex App)",
             "achievements": [
-              "💥 Pinataas ang user feedback response rates mula 79% hanggang 91% at engagement mula 11.5% hanggang 29.4%",
-              "⚡ Na-optimize ang server load at binababa ang gastos sa pamamagitan ng pag-integrate ng Mex AI Assistant via WebView",
-              "🚀 Pinataas ang engagement sa pamamagitan ng dynamic content rendering gamit ang JSON SDUI",
-              "🏆 Natapos ang 'Meal For One Insights Phase 1' bilang Top 40 Project sa Grab"
+              "💥 Pinahusay ang response rate ng user feedback mula 79% hanggang 91% at ang engagement metrics mula 11.5% hanggang 29.4% sa pamamagitan ng pag-engineer ng feedback flow.",
+              "⚡ In-optimize ang server load at binawasan ang gastos sa pamamagitan ng pag-integrate ng Mex AI Assistant via WebView at paglikha ng web‑based LottiePlayer.",
+              "🚀 Pinalakas ang engagement sa pamamagitan ng dynamic content rendering at custom components gamit ang JSON SDUI.",
+              "🏆 Nag-ambag sa benchmarking features upang paghusayin ang operational insights ng merchant.",
+              "🏆 Natapos ang \"Meal For One Insights Phase 1\" bilang Top 40 Project sa Grab."
             ]
           },
           {
             "title": "Software Engineer - Web (Mex Onboarding)",
             "achievements": [
-              "💪 Na-save ang ~900 buwanang man-hours sa pamamagitan ng pagpapahusay ng dynamic translation features",
-              "🎨 Binuo ang Progressive Onboarding UI/UX components na sumasaklaw sa 80% ng workflows",
-              "⚡ Pinabilis ang onboarding process gamit ang universal base components"
+              "💪 Nakapag-save ng humigit‑kumulang 900 buwanang man‑hours sa pamamagitan ng pagpapahusay ng dynamic translation features sa QualityCheckErrorScreen, na pinalinis ang onboarding process.",
+              "🎨 Bumuo ng Progressive Onboarding UI/UX components na sumasaklaw sa mga ~80% ng workflows gamit ang isang universal base."
             ]
           },
           {
             "title": "Software Engineer - Web & Flutter (POS)",
             "achievements": [
-              "💰 Binababa ang deployment time at na-save ang RM 300-500 sa setup fees gamit ang QR scanning",
-              "🎯 Pinamunuan ang design system creation at in-upgrade ang Flutter sa v3.3.10 para sa UI consistency",
-              "📉 Binababa ang support tickets ng 53%+ gamit ang diagnostic tool development",
-              "🚀 Binuo ang lead generation landing page na nagpapahusay sa conversion rates"
+              "💰 Binawasan ang deployment time at nakapag‑save ng RM 300–500 sa setup fees sa pamamagitan ng pag‑enable ng QR code scanning sa mga POS device.",
+              "🎯 Pinangunahan ang paglikha ng design system at in‑upgrade ang Flutter sa v3.3.10 para matiyak ang consistency ng UI/UX sa POS app.",
+              "📉 Binawasan ang support tickets nang higit sa 53% sa pamamagitan ng kontribusyon sa pag‑develop ng diagnostic tool.",
+              "🚀 Gumawa ng landing page para sa lead generation na nagpabuti sa lead assignment at conversion rates."
             ]
           }
         ]
@@ -71,14 +71,14 @@
         "position": "Web Developer",
         "type": "Internship",
         "location": "Jakarta, Indonesia (Remote)",
-        "period": "Enero 2021 - Pebrero 2022",
+        "period": "Jan 2021 - Feb 2022",
         "roles": [
           {
-            "title": "Full-Stack Developer",
+            "title": "CRM Project (MERN Stack)",
             "achievements": [
-              "Binuo ang isang komprehensibong CRM system na nag-transform ng client relationships",
-              "Ginamit ang makapangyarihang MERN Stack (MongoDB, Express.js, React.js, Node.js) para sa maximum impact",
-              "Ipinatupad ang bulletproof authentication at smart data management solutions"
+              "Binuo ang Customer Relationship Management application gamit ang MongoDB, Express.js, React.js, at Node.js.",
+              "In-implement ang core CRUD features at basic authentication.",
+              "Nag-develop ng REST APIs at client‑side views alinsunod sa mga requirement ng proyekto."
             ]
           }
         ]
@@ -93,7 +93,7 @@
       "backend": "Backend Development",
       "database": "Database",
       "languages": "Programming Languages",
-      "other": "Iba Pang Kasanayan"
+      "other": "Other Skills"
     },
     "items": {
       "flutter": "Flutter",
@@ -111,60 +111,50 @@
     }
   },
   "interests": {
-    "title": "Mga Interes & Hobbies",
+    "title": "Interes at Libangan",
     "items": [
-      "🎸 Paglalaro ng Gitara",
-      "🎮 Paglalaro ng Laro",
-      "✈️ Paglalakbay"
+      "Pagpapatugtog ng Gitara",
+      "Paglalaro",
+      "Paglalakbay"
     ]
   },
   "languages": {
     "title": "Mga Wika",
     "items": {
       "english": "Ingles",
-      "indonesian": "Indonesian",
-      "malay": "Malay",
-      "thai": "Thai",
-      "vietnamese": "Vietnamese",
-      "filipino": "Filipino"
+      "indonesian": "Indonesian"
     }
   },
   "contact": {
-    "title": "🚀 Gumawa Tayo ng Katulad na Kamangha-mangha",
-    "description": "Handa ka bang gawing realidad ang iyong mga pinaka-lokong tech dreams? Lagi akong excited na tumalon sa groundbreaking projects at galugarin ang mga thrilling opportunities. Huwag mag-atubiling—gumawa tayo ng magic mangyari! ✨",
+    "title": "Makipag-ugnay",
+    "description": "Open sa mga tungkulin sa software engineering at kolaborasyon. Kung ang aking karanasan ay naaayon sa iyong pangangailangan, huwag mag‑atubiling makipag‑ugnay.",
     "form": {
       "name": "Pangalan",
       "email": "Email",
       "message": "Mensahe",
-      "send": "Ipadala ang Mensahe",
-      "sending": "Nagpapadala sa espasyo...",
-      "success": "🎉 Naipadala ang mensahe! Maghintay ng kamangha-mangha sa lalong madaling panahon!",
-      "successDescription": "Babalik ako nang mas mabilis kaysa sa bilis ng liwanag!",
-      "error": "🔧 Houston, may problema tayo! Subukan natin ulit.",
-      "errorDescription": "Pakitingnan ang iyong koneksyon at subukan ulit."
+      "send": "Ipadala",
+      "sending": "Pinapadala...",
+      "success": "Mensaheng matagumpay na naipadala.",
+      "successDescription": "Magtatawag ako agad.",
+      "error": "Nagkaroon ng error. Mangyaring subukan muli.",
+      "errorDescription": "Pakisuri ang iyong koneksyon at subukan muli."
     }
   },
   "footer": {
     "copyright": "© 2024 Gabriel Ivan Setyaputra. Lahat ng karapatan ay nakalaan.",
-    "builtWith": "⚡ Pinapagana ng Next.js & pinopola ng Tailwind CSS magic"
-  },
-  "common": {
-    "loading": "Naglo-load...",
-    "error": "Nagkaroon ng error",
-    "retry": "Subukan Uli",
-    "close": "Isara"
+    "builtWith": "Gumawa gamit ang Next.js at Tailwind CSS"
   },
   "projects": {
-    "title": "Aking Mga Proyekto",
-    "description": "Galugarin ang aking portfolio ng mga innovative na solusyon na nagdulot ng real na business impact sa mobile at web platforms.",
-    "technologies": "Mga Teknologyang Ginamit",
-    "keyAchievements": "Mga Pangunahing Pagtatamo",
-    "viewProject": "Tingnan ang Proyekto",
+    "title": "Aking Mga Projekto",
+    "description": "Piniling mga gawa sa mobile at web na nagpapakita ng tunay na kontribusyon at nasusukat na resulta.",
+    "technologies": "Mga Teknolohiyang Ginamit",
+    "keyAchievements": "Pangunahing Mga Nakamit",
+    "viewProject": "Tingnan ang Project",
     "viewCode": "Tingnan ang Code",
-    "interestedInWorking": "Interesado sa pagtatrabaho nang magkasama?",
+    "interestedInWorking": "Interesado ba sa pagtatrabaho nang magkasama?",
     "getInTouch": "Makipag-ugnayan",
     "categories": {
-      "all": "Lahat ng Mga Proyekto",
+      "all": "Lahat ng Projekto",
       "mobile": "Mobile",
       "web": "Web",
       "fullstack": "Full Stack"
@@ -172,58 +162,64 @@
     "projects": {
       "grabMexApp": {
         "title": "Grab Mex Mobile App",
-        "description": "Rebolusyonaryong merchant experience app na may AI-powered na mga feature at dynamic content rendering na nag-transform ng user engagement sa Southeast Asia.",
+        "description": "Merchant experience app na may AI Assistant integration (WebView) at dynamic content sa pamamagitan ng JSON SDUI.",
         "achievements": [
-          "Pinataas ang user feedback response rates mula 79% hanggang 91%",
-          "Pinataas ang engagement mula 11.5% hanggang 29.4% sa pamamagitan ng dynamic content",
-          "Binababa ang server load at gastos sa pamamagitan ng AI Assistant integration"
+          "Pinahusay ang response rate ng user feedback mula 79% hanggang 91%.",
+          "Pinalakas ang engagement mula 11.5% hanggang 29.4% sa pamamagitan ng dynamic content.",
+          "Binawasan ang server load at gastos sa pamamagitan ng AI Assistant integration at web‑based LottiePlayer."
         ]
       },
       "grabPos": {
         "title": "Grab - Hubbo POS",
-        "description": "Komprehensibong Point of Sale solution na may Flutter mobile app at React web dashboard, na may QR code integration at design system architecture.",
+        "description": "Point of Sale solution na may Flutter app at React web modules, kabilang ang QR code support at shared design system.",
         "achievements": [
-          "Binababa ang deployment time at na-save ang RM 300-500 sa setup fees",
-          "Pinamunuan ang design system creation para sa UI consistency",
-          "Binababa ang support tickets ng 53% sa pamamagitan ng diagnostic tools"
+          "Binawasan ang deployment time at nakapag‑save ng RM 300–500 sa setup fees.",
+          "Nanguna sa paglikha ng design system at in‑upgrade ang Flutter sa v3.3.10 para sa consistency ng UI.",
+          "Binawasan ang support tickets ng higit sa 53% sa pamamagitan ng diagnostic tool."
         ]
       },
       "mexOnboarding": {
         "title": "Mex Onboarding Platform",
-        "description": "Progressive web application para sa merchant onboarding na may dynamic translation features at universal UI components na sumasaklaw sa 80% ng workflows.",
+        "description": "Web modules para sa merchant onboarding na may dynamic translation features at universal UI components.",
         "achievements": [
-          "Na-save ang ~900 buwanang man-hours sa pamamagitan ng pagpapahusay ng features",
-          "Binuo ang Progressive Onboarding UI/UX components",
-          "Pinabilis ang onboarding process gamit ang universal base components"
+          "Nakapag‑save ng humigit‑kumulang 900 buwanang man‑hours sa pamamagitan ng pinahusay na translation features.",
+          "Nagtayo ng Progressive Onboarding UI/UX components na sumasaklaw sa mga ~80% ng workflows.",
+          "Pinasimple ang onboarding gamit ang universal component base."
         ]
       },
       "crmSystem": {
-        "title": "Komprehensibong CRM System",
-        "description": "Full-stack Customer Relationship Management system na binuo gamit ang MERN stack, na may robust authentication at smart data management.",
+        "title": "Comprehensive CRM System",
+        "description": "Customer Relationship Management application na binuo gamit ang MERN stack.",
         "achievements": [
-          "Nag-transform ng client relationship management processes",
-          "Ipinatupad ang bulletproof authentication system",
-          "Binuo ang scalable data management architecture"
+          "Dinisenyo ang data models sa MongoDB at bumuo ng REST APIs gamit ang Express.js/Node.js.",
+          "Nag-implement ng authentication at core CRUD features.",
+          "Nagawa ang React.js interfaces para sa mga key modules."
         ]
       },
       "portfolio": {
         "title": "Personal Portfolio Website",
-        "description": "Modern, responsive portfolio website na binuo gamit ang Next.js, na may internationalization, dark mode, at smooth animations.",
+        "description": "Portfolio website na binuo gamit ang Next.js, may internationalization at dark mode.",
         "achievements": [
-          "Multi-language support gamit ang next-intl",
-          "Responsive design gamit ang Tailwind CSS",
-          "Smooth animations gamit ang Framer Motion"
+          "Multi-language support gamit ang next‑intl.",
+          "Responsive design gamit ang Tailwind CSS.",
+          "Smooth transitions gamit ang Framer Motion."
         ]
       },
       "taskManagement": {
         "title": "Task Management App",
-        "description": "Progressive Web Application para sa task management na may real-time updates, drag-and-drop functionality, at offline support.",
+        "description": "Prototype task management app na may real‑time updates at offline support.",
         "achievements": [
-          "Real-time collaboration features",
-          "Offline-first architecture gamit ang PWA",
-          "Intuitive drag-and-drop interface"
+          "Real-time updates.",
+          "Offline-first PWA approach.",
+          "Drag-and-drop interface."
         ]
       }
     }
+  },
+  "common": {
+    "loading": "Naglo-load...",
+    "error": "Nagkaroon ng error",
+    "retry": "Subukan Muli",
+    "close": "Isara"
   }
 }

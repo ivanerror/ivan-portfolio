@@ -11,13 +11,13 @@
     "name": "Gabriel Ivan Setyaputra",
     "title": "Software Engineer",
     "location": "Tulungagung, Indonesia",
-    "bio": "🚀 Software Engineer yang penuh semangat mengubah ide menjadi kenyataan! Ahli dalam Flutter, React.js, dan pengembangan web/mobile terdepan. Menciptakan solusi revolusioner yang meningkatkan engagement pengguna hingga 155% dan mengurangi biaya operasional di Grab.",
+    "bio": "Software Engineer dengan pengalaman di Flutter dan React.js untuk mobile dan web. Mencapai perbaikan seperti meningkatkan tingkat respons umpan balik dari 79% menjadi 91%, meningkatkan engagement dari 11.5% menjadi 29.4%, menghemat ~900 jam kerja bulanan dalam onboarding, dan mengurangi biaya deployment sebesar RM 300–500.",
     "downloadCV": "Ambil CV Saya",
     "contactMe": "Mari Berkolaborasi"
   },
   "about": {
     "title": "Tentang Saya",
-    "description": "💡 Saya adalah seorang code craftsman dan arsitek digital dengan pengalaman 3+ tahun mengubah tantangan kompleks menjadi solusi yang elegan! Keahlian super saya? Menciptakan pengalaman mobile dan web yang memukau dengan Flutter, React.js, dan keajaiban full-stack. Saya tidak hanya menulis kode—saya merancang kebahagiaan pengguna dan membangun sistem yang dapat berkembang pesat! 🎨✨"
+    "description": "Saya membangun solusi mobile dan web yang andal menggunakan Flutter, React.js, dan TypeScript. Fokus saya pada dampak praktis: meningkatkan engagement, mengurangi upaya operasional, dan memastikan UI/UX yang konsisten. Saya menikmati kolaborasi lintas tim dan mengubah kebutuhan menjadi perangkat lunak yang mudah dipelihara."
   },
   "education": {
     "title": "Pendidikan",
@@ -25,43 +25,43 @@
     "degree": "Sarjana Sains Teknik Informatika",
     "gpa": "IPK: 3.6",
     "location": "Jakarta, Indonesia",
-    "year": "September 2018 - Mei 2022"
+    "year": "2022"
   },
   "experience": {
     "title": "Pengalaman",
-    "current": "Sekarang",
+    "current": "Present",
     "experiences": [
       {
-        "company": "PT. Kudo Teknologi Indonesia (Grab)",
+        "company": "PT. Kudo Teknologi Indonesia",
         "position": "Software Engineer",
         "type": "Full-time",
         "location": "Jakarta, Indonesia (Remote)",
-        "period": "Mei 2022 - Juni 2025",
+        "period": "May 2022 - June 2025",
         "roles": [
           {
             "title": "Mobile Engineer - Flutter (Mex App)",
             "achievements": [
-              "💥 Meningkatkan response rate feedback pengguna dari 79% ke 91% dan engagement dari 11,5% ke 29,4%",
-              "⚡ Mengoptimalkan server load dan mengurangi biaya dengan mengintegrasikan Mex AI Assistant via WebView",
-              "🚀 Meningkatkan engagement melalui dynamic content rendering dengan JSON SDUI",
-              "🏆 Menyelesaikan 'Meal For One Insights Phase 1' sebagai Proyek Top 40 di Grab"
+              "💥 Meningkatkan tingkat respons umpan balik dari 79% menjadi 91% dan metrik engagement dari 11.5% menjadi 29.4% dengan merancang alur feedback.",
+              "⚡ Mengoptimalkan beban server dan mengurangi biaya dengan mengintegrasikan Mex AI Assistant melalui WebView dan membuat LottiePlayer berbasis web.",
+              "🚀 Meningkatkan engagement melalui rendering konten dinamis dan komponen kustom menggunakan JSON SDUI.",
+              "🏆 Berkontribusi pada fitur benchmarking untuk meningkatkan wawasan operasional merchant.",
+              "🏆 Menyelesaikan \"Meal For One Insights Phase 1\" sebagai Proyek Top 40 di Grab."
             ]
           },
           {
             "title": "Software Engineer - Web (Mex Onboarding)",
             "achievements": [
-              "💪 Menghemat ~900 jam kerja bulanan dengan meningkatkan fitur dynamic translation",
-              "🎨 Mengembangkan komponen Progressive Onboarding UI/UX yang mencakup 80% workflow",
-              "⚡ Mempercepat proses onboarding dengan komponen base universal"
+              "💪 Menghemat sekitar 900 jam kerja bulanan dengan meningkatkan fitur terjemahan dinamis pada QualityCheckErrorScreen, mempermudah proses onboarding.",
+              "🎨 Mengembangkan komponen UI/UX Progressive Onboarding yang mencakup sekitar 80% alur kerja dengan basis universal."
             ]
           },
           {
             "title": "Software Engineer - Web & Flutter (POS)",
             "achievements": [
-              "💰 Mengurangi waktu deployment dan menghemat RM 300-500 biaya setup dengan QR scanning",
-              "🎯 Memimpin pembuatan design system dan upgrade Flutter ke v3.3.10 untuk konsistensi UI",
-              "📉 Mengurangi support tickets 53%+ dengan pengembangan diagnostic tool",
-              "🚀 Membangun landing page lead generation yang meningkatkan conversion rates"
+              "💰 Mengurangi waktu deployment dan menghemat RM 300–500 dalam biaya setup dengan memungkinkan fungsi pemindaian QR pada perangkat POS.",
+              "🎯 Memimpin pembuatan sistem desain dan meng-upgrade Flutter ke versi 3.3.10, memastikan konsistensi UI/UX pada aplikasi POS.",
+              "📉 Mengurangi tiket dukungan lebih dari 53% dengan berkontribusi pada pengembangan alat diagnostik.",
+              "🚀 Mengembangkan halaman landing untuk lead generation, meningkatkan penugasan lead dan rasio konversi."
             ]
           }
         ]
@@ -69,16 +69,16 @@
       {
         "company": "PT Global Media Utama Teknologi",
         "position": "Web Developer",
-        "type": "Magang",
+        "type": "Internship",
         "location": "Jakarta, Indonesia (Remote)",
         "period": "Jan 2021 - Feb 2022",
         "roles": [
           {
-            "title": "Full-Stack Developer",
+            "title": "CRM Project (MERN Stack)",
             "achievements": [
-              "Membangun sistem CRM komprehensif yang mentransformasi hubungan klien",
-              "Memanfaatkan kekuatan MERN Stack (MongoDB, Express.js, React.js, Node.js) untuk impact maksimal",
-              "Mengimplementasikan autentikasi anti peluru dan solusi manajemen data yang cerdas"
+              "Membangun aplikasi Customer Relationship Management menggunakan MongoDB, Express.js, React.js, dan Node.js.",
+              "Mengimplementasikan fitur CRUD inti dan autentikasi dasar.",
+              "Mengembangkan REST API dan tampilan sisi klien sesuai kebutuhan proyek."
             ]
           }
         ]
@@ -88,12 +88,12 @@
   "skills": {
     "title": "Keahlian",
     "categories": {
-      "mobile": "Pengembangan Mobile",
-      "web": "Pengembangan Web",
-      "backend": "Pengembangan Backend",
+      "mobile": "Mobile Development",
+      "web": "Web Development",
+      "backend": "Backend Development",
       "database": "Database",
-      "languages": "Bahasa Pemrograman",
-      "other": "Keahlian Lainnya"
+      "languages": "Programming Languages",
+      "other": "Other Skills"
     },
     "items": {
       "flutter": "Flutter",
@@ -113,117 +113,113 @@
   "interests": {
     "title": "Minat & Hobi",
     "items": [
-      "🎸 Bermain Gitar",
-      "🎮 gaming",
-      "✈️ Traveling"
+      "Playing Guitar",
+      "Gaming",
+      "Traveling"
     ]
   },
   "languages": {
-    "title": "Bahasa",
+    "title": "Languages",
     "items": {
-      "english": "Bahasa Inggris",
-      "indonesian": "Bahasa Indonesia",
-      "malay": "Bahasa Melayu",
-      "thai": "Bahasa Thai",
-      "vietnamese": "Bahasa Vietnam",
-      "filipino": "Bahasa Filipino"
+      "english": "English",
+      "indonesian": "Indonesian"
     }
   },
   "contact": {
-    "title": "🚀 Mari Ciptakan Sesuatu yang Luar Biasa",
-    "description": "Siap mewujudkan mimpi tech terliar Anda menjadi kenyataan? Saya selalu excited untuk terjun ke proyek-proyek breakthrough dan mengeksplorasi peluang yang mendebarkan. Jangan ragu—mari kita ciptakan keajaiban! ✨",
+    "title": "Let's Get In Touch",
+    "description": "Open to software engineering roles and collaborations. If my experience aligns with your needs, feel free to reach out.",
     "form": {
-      "name": "Nama",
+      "name": "Name",
       "email": "Email",
-      "message": "Pesan",
-      "send": "Luncurkan Pesan",
-      "sending": "Meluncur ke angkasa...",
-      "success": "🎉 Pesan terkirim! Tunggu keajaiban segera!",
-      "successDescription": "Saya akan membalas lebih cepat dari kecepatan cahaya!",
-      "error": "🔧 Houston, kita ada masalah! Mari coba lagi.",
-      "errorDescription": "Silakan periksa koneksi Anda dan coba lagi."
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully.",
+      "successDescription": "I'll follow up shortly.",
+      "error": "There was an error. Please try again.",
+      "errorDescription": "Please check your connection and try again."
     }
   },
   "footer": {
-    "copyright": "© 2024 Gabriel Ivan Setyaputra. Semua hak dilindungi.",
-    "builtWith": "⚡ Didukung oleh Next.js & dipoles dengan keajaiban Tailwind CSS"
-  },
-  "common": {
-    "loading": "Memuat...",
-    "error": "Terjadi kesalahan",
-    "retry": "Coba Lagi",
-    "close": "Tutup"
+    "copyright": "© 2024 Gabriel Ivan Setyaputra. All rights reserved.",
+    "builtWith": "Built with Next.js and Tailwind CSS"
   },
   "projects": {
-    "title": "Proyek Saya",
-    "description": "Jelajahi portofolio solusi inovatif saya yang telah mendorong dampak bisnis nyata di platform mobile dan web.",
-    "technologies": "Teknologi yang Digunakan",
-    "keyAchievements": "Pencapaian Utama",
-    "viewProject": "Lihat Proyek",
-    "viewCode": "Lihat Kode",
-    "interestedInWorking": "Tertarik untuk bekerja sama?",
-    "getInTouch": "Hubungi Saya",
+    "title": "My Projects",
+    "description": "Selected work across mobile and web reflecting real contributions and measurable outcomes.",
+    "technologies": "Technologies Used",
+    "keyAchievements": "Key Achievements",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "interestedInWorking": "Interested in working together?",
+    "getInTouch": "Get In Touch",
     "categories": {
-      "all": "Semua Proyek",
+      "all": "All Projects",
       "mobile": "Mobile",
       "web": "Web",
       "fullstack": "Full Stack"
     },
     "projects": {
       "grabMexApp": {
-        "title": "Aplikasi Grab Mex Mobile",
-        "description": "Aplikasi pengalaman pedagang revolusioner dengan fitur AI-powered dan rendering konten dinamis yang mentransformasi engagement pengguna di Asia Tenggara.",
+        "title": "Grab Mex Mobile App",
+        "description": "Merchant experience app featuring AI Assistant integration (WebView) and dynamic content via JSON SDUI.",
         "achievements": [
-          "Meningkatkan response rate feedback pengguna dari 79% ke 91%",
-          "Meningkatkan engagement dari 11.5% ke 29.4% melalui konten dinamis",
-          "Mengurangi beban server dan biaya dengan integrasi AI Assistant"
+          "Improved user feedback response rates from 79% to 91%.",
+          "Increased engagement from 11.5% to 29.4% through dynamic content.",
+          "Reduced server load and costs with AI Assistant integration and a web-based LottiePlayer."
         ]
       },
       "grabPos": {
         "title": "Grab - Hubbo POS",
-        "description": "Solusi Point of Sale komprehensif dengan aplikasi mobile Flutter dan dashboard web React, fitur integrasi kode QR dan arsitektur sistem desain.",
+        "description": "Point of Sale solution with Flutter app and React web modules, including QR code support and a shared design system.",
         "achievements": [
-          "Mengurangi waktu deployment dan menghemat RM 300-500 dalam biaya setup",
-          "Memimpin pembuatan sistem desain untuk konsistensi UI",
-          "Mengurangi tiket support sebesar 53% dengan alat diagnostik"
+          "Reduced deployment time and saved RM 300–500 in setup fees.",
+          "Led design system creation and upgraded Flutter to v3.3.10 for UI consistency.",
+          "Reduced support tickets by over 53% with a diagnostic tool."
         ]
       },
       "mexOnboarding": {
-        "title": "Platform Onboarding Mex",
-        "description": "Aplikasi web progresif untuk onboarding pedagang dengan fitur terjemahan dinamis dan komponen UI universal yang mencakup 80% alur kerja.",
+        "title": "Mex Onboarding Platform",
+        "description": "Web modules for merchant onboarding with dynamic translation features and universal UI components.",
         "achievements": [
-          "Menghemat ~900 jam kerja bulanan dengan fitur yang ditingkatkan",
-          "Membangun komponen UI/UX Onboarding Progresif",
-          "Mempercepat proses onboarding dengan komponen base universal"
+          "Saved approximately 900 monthly man-hours with enhanced translation features.",
+          "Built Progressive Onboarding UI/UX components covering around 80% of workflows.",
+          "Streamlined onboarding with a universal component base."
         ]
       },
       "crmSystem": {
-        "title": "Sistem CRM Komprehensif",
-        "description": "Sistem Manajemen Hubungan Pelanggan full-stack yang dibangun dengan stack MERN, fitur autentikasi yang kuat dan manajemen data cerdas.",
+        "title": "Comprehensive CRM System",
+        "description": "Customer Relationship Management application built with the MERN stack.",
         "achievements": [
-          "Mentrasformasi proses manajemen hubungan pelanggan",
-          "Mengimplementasikan sistem autentikasi yang kuat",
-          "Membangun arsitektur manajemen data yang dapat diskalakan"
+          "Designed data models in MongoDB and built REST APIs with Express.js/Node.js.",
+          "Implemented authentication and core CRUD features.",
+          "Built React.js interfaces for key modules."
         ]
       },
       "portfolio": {
-        "title": "Situs Web Portofolio Pribadi",
-        "description": "Situs web portofolio modern dan responsif yang dibangun dengan Next.js, fitur internasionalisasi, mode gelap, dan animasi halus.",
+        "title": "Personal Portfolio Website",
+        "description": "Portfolio website built with Next.js, featuring internationalization and dark mode.",
         "achievements": [
-          "Dukungan multi-bahasa dengan next-intl",
-          "Desain responsif dengan Tailwind CSS",
-          "Animasi halus dengan Framer Motion"
+          "Multi-language support with next-intl.",
+          "Responsive design with Tailwind CSS.",
+          "Smooth transitions with Framer Motion."
         ]
       },
       "taskManagement": {
-        "title": "Aplikasi Manajemen Tugas",
-        "description": "Aplikasi Web Progresif untuk manajemen tugas dengan pembaruan real-time, fungsionalitas drag-and-drop, dan dukungan offline.",
+        "title": "Task Management App",
+        "description": "Prototype task management app with real-time updates and offline support.",
         "achievements": [
-          "Fitur kolaborasi real-time",
-          "Arsitektur first-offline dengan PWA",
-          "Antarmuka drag-and-drop yang intuitif"
+          "Real-time updates.",
+          "Offline-first PWA approach.",
+          "Drag-and-drop interface."
         ]
       }
     }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "close": "Close"
   }
 }
