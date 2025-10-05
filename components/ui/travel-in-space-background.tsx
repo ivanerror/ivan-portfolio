@@ -29,34 +29,30 @@ interface Particle {
   color: string;
 }
 
+const DARK_COLOR_PALETTES = [
+  ['#1a0033', '#330066', '#4d0099', '#6600cc', '#7f00ff'], // Deep purple
+  ['#000033', '#001166', '#002299', '#0033cc', '#0044ff'], // Deep blue
+  ['#330033', '#660066', '#990099', '#cc00cc', '#ff00ff'], // Magenta
+  ['#003333', '#006666', '#009999', '#00cccc', '#00ffff'], // Cyan
+  ['#333300', '#666600', '#999900', '#cccc00', '#ffff00'], // Yellow
+] as const;
+
+const LIGHT_COLOR_PALETTES = [
+  ['#e6ccff', '#d9b3ff', '#cc99ff', '#bf80ff', '#b366ff'], // Light purple
+  ['#cce6ff', '#99d6ff', '#66c7ff', '#33b8ff', '#00aaff'], // Light blue
+  ['#ffccf2', '#ff99e6', '#ff66d9', '#ff33cc', '#ff00bf'], // Light pink
+  ['#ccffff', '#99f2f2', '#66e6e6', '#33d9d9', '#00cccc'], // Light cyan
+  ['#ffffcc', '#fff299', '#ffe666', '#ffd933', '#ffcc00'], // Light yellow
+] as const;
+
 export function TravelInSpaceBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animationRef = useRef<number | undefined>(undefined);
   const [stars, setStars] = useState<Star[]>([]);
   const [particles, setParticles] = useState<Particle[]>([]);
   const { scrollYProgress } = useScroll();
-  const { theme } = useTheme();
-
-  // Color palettes for different sections - Dark theme
-  const darkColorPalettes = [
-    ['#1a0033', '#330066', '#4d0099', '#6600cc', '#7f00ff'], // Deep purple
-    ['#000033', '#001166', '#002299', '#0033cc', '#0044ff'], // Deep blue
-    ['#330033', '#660066', '#990099', '#cc00cc', '#ff00ff'], // Magenta
-    ['#003333', '#006666', '#009999', '#00cccc', '#00ffff'], // Cyan
-    ['#333300', '#666600', '#999900', '#cccc00', '#ffff00'], // Yellow
-  ];
-
-  // Color palettes for different sections - Light theme
-  const lightColorPalettes = [
-    ['#e6ccff', '#d9b3ff', '#cc99ff', '#bf80ff', '#b366ff'], // Light purple
-    ['#cce6ff', '#99d6ff', '#66c7ff', '#33b8ff', '#00aaff'], // Light blue
-    ['#ffccf2', '#ff99e6', '#ff66d9', '#ff33cc', '#ff00bf'], // Light pink
-    ['#ccffff', '#99f2f2', '#66e6e6', '#33d9d9', '#00cccc'], // Light cyan
-    ['#ffffcc', '#fff299', '#ffe666', '#ffd933', '#ffcc00'], // Light yellow
-  ];
-
-  // Get current color palettes based on theme
-  const colorPalettes = theme === 'light' ? lightColorPalettes : darkColorPalettes;
+  const { theme } = useTheme();  // Get current color palettes based on theme
+  const colorPalettes = theme === 'light' ? LIGHT_COLOR_PALETTES : DARK_COLOR_PALETTES;
 
   const currentPalette = useTransform(
     scrollYProgress,
@@ -84,7 +80,7 @@ export function TravelInSpaceBackground() {
     };
 
     generateStars();
-  }, []);
+  }, [colorPalettes]);
 
   // Initialize particles
   useEffect(() => {
@@ -109,7 +105,7 @@ export function TravelInSpaceBackground() {
     };
 
     generateParticles();
-  }, []);
+  }, [colorPalettes]);
 
   // Animation loop
   useEffect(() => {
@@ -252,7 +248,7 @@ export function TravelInSpaceBackground() {
       }
       window.removeEventListener('resize', resizeCanvas);
     };
-  }, [stars, particles, currentPalette, theme]);
+  }, [stars, particles, currentPalette, theme, colorPalettes]);
 
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden">
@@ -351,3 +347,5 @@ export function TravelInSpaceBackground() {
     </div>
   );
 }
+
+

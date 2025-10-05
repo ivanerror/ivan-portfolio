@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { GlowCard } from '@/components/ui/glow-card';
-import { ParallaxElement } from '@/components/ui/parallax-background';
 import { Button } from '@/components/ui/button';
 import { Mail, Phone, MapPin, Send, Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -101,7 +100,6 @@ const Contact = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <GlowCard
-              glowColor="from-cyan-400 via-blue-400 to-indigo-400"
               intensity="medium"
             >
               <div className="space-y-6">
@@ -156,7 +154,6 @@ const Contact = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <GlowCard
-              glowColor="from-indigo-400 via-purple-400 to-pink-400"
               intensity="medium"
             >
               <div className="space-y-6">

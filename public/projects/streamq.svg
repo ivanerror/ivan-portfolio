@@ -1,0 +1,59 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#gradient)" />
+  
+  <!-- Desktop Window Frame -->
+  <rect x="50" y="60" width="300" height="200" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  
+  <!-- Window Title Bar -->
+  <rect x="50" y="60" width="300" height="30" rx="8" fill="rgba(255,255,255,0.15)"/>
+  
+  <!-- Window Controls -->
+  <circle cx="70" cy="75" r="6" fill="#ff5f57"/>
+  <circle cx="90" cy="75" r="6" fill="#ffbd2e"/>
+  <circle cx="110" cy="75" r="6" fill="#28ca42"/>
+  
+  <!-- StreamQ Title -->
+  <text x="200" y="80" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">StreamQ</text>
+  
+  <!-- YouTube Icon -->
+  <rect x="80" y="110" width="40" height="30" rx="4" fill="#ff0000"/>
+  <polygon points="95,118 95,132 108,125" fill="white"/>
+  
+  <!-- Download Arrow -->
+  <g transform="translate(150,115)">
+    <rect x="0" y="0" width="4" height="20" fill="#4CAF50"/>
+    <polygon points="2,20 8,28 -4,28" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Queue Lines -->
+  <rect x="180" y="115" width="120" height="4" rx="2" fill="rgba(255,255,255,0.6)"/>
+  <rect x="180" y="125" width="100" height="4" rx="2" fill="rgba(255,255,255,0.4)"/>
+  <rect x="180" y="135" width="80" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+  
+  <!-- Progress Bar -->
+  <rect x="80" y="160" width="240" height="8" rx="4" fill="rgba(255,255,255,0.2)"/>
+  <rect x="80" y="160" width="120" height="8" rx="4" fill="url(#progressGradient)"/>
+  
+  <!-- Python Logo -->
+  <g transform="translate(80,185)">
+    <circle cx="8" cy="8" r="8" fill="#3776ab"/>
+    <circle cx="16" cy="8" r="8" fill="#ffd43b"/>
+    <text x="30" y="12" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="12">Python</text>
+  </g>
+  
+  <!-- Modern GUI Text -->
+  <text x="200" y="220" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="12">Modern Desktop GUI</text>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8BC34A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

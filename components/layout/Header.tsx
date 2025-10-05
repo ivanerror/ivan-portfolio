@@ -91,21 +91,6 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
-  const handleNavigation = (item: { key: string; href: string; isRoute?: boolean }) => {
-    if (item.isRoute) {
-      // This will be handled by Link component, just close mobile menu
-      setIsMenuOpen(false);
-    } else {
-      if (isHomePage) {
-        // We're on home page, scroll to section
-        scrollToSection(item.href);
-      } else {
-        // We're on another page, navigation will be handled by Link component
-        setIsMenuOpen(false);
-      }
-    }
-  };
-
   if (!mounted) {
     return (
       <header className="fixed top-0 left-0 right-0 z-50">

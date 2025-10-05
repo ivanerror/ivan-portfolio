@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { GlowCard } from '@/components/ui/glow-card';
-import { ParallaxElement } from '@/components/ui/parallax-background';
 import { GraduationCap, MapPin, Calendar, Award } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
@@ -34,7 +33,6 @@ const Education = () => {
           className="max-w-3xl mx-auto"
         >
           <GlowCard
-            glowColor="from-emerald-400 via-teal-400 to-cyan-400"
             intensity="medium"
           >
             <div className="space-y-6">

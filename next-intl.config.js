@@ -1,5 +1,7 @@
 import { routing } from './i18n/routing.js';
 
-export default {
+const nextIntlConfig = {
   ...routing
 };
+
+export default nextIntlConfig;

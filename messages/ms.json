@@ -196,6 +196,15 @@
           "Membina antara muka React.js untuk modul utama."
         ]
       },
+      "streamq": {
+        "title": "StreamQ - YouTube Downloader",
+        "description": "Aplikasi desktop moden untuk beratur dan memuat turun video/audio dari YouTube dengan GUI yang bersih dan seni bina Python modular.",
+        "achievements": [
+          "Membina antara muka GUI yang bersih dan moden dengan penjejakan kemajuan muat turun masa nyata.",
+          "Melaksanakan sistem pengurusan barisan untuk berbilang muat turun serentak.",
+          "Membangunkan seni bina Python modular mengikut amalan terbaik untuk kebolehselenggaraan."
+        ]
+      },
       "portfolio": {
         "title": "Laman Portfolio Peribadi",
         "description": "Laman portfolio dibina dengan Next.js, menampilkan internasionalisasi dan mod gelap.",

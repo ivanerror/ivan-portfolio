@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { ExternalLink, Github, Code, Smartphone, Globe, Database } from 'lucide-react';
+import { ExternalLink, Github, Code, Smartphone, Globe, Database, Check } from 'lucide-react';
 
 const Projects = () => {
   const t = useTranslations('projects');
@@ -80,6 +80,22 @@ const Projects = () => {
         github: 'https://github.com/ivanerror/ivan-portfolio',
       }
     },
+    {
+      id: 'streamq',
+      title: t('projects.streamq.title'),
+      description: t('projects.streamq.description'),
+      image: '/projects/streamq.svg',
+      technologies: ['Python', 'Tkinter', 'yt-dlp', 'FFmpeg', 'Threading', 'GUI Development'],
+      category: 'fullstack',
+      achievements: [
+        t('projects.streamq.achievements.0'),
+        t('projects.streamq.achievements.1'),
+        t('projects.streamq.achievements.2')
+      ],
+      links: {
+        github: 'https://github.com/ivanerror/StreamQ',
+      }
+    },
   ];
 
   const categories = [
@@ -137,7 +153,6 @@ const Projects = () => {
                 transition={{ duration: 0.6, delay: 0.1 * index }}
               >
                 <GlowCard
-                  glowColor={getCategoryColor(project.category)}
                   intensity="medium"
                   className="h-full"
                 >
@@ -186,8 +201,8 @@ const Projects = () => {
                       <ul className="space-y-1">
                         {project.achievements.map((achievement, idx) => (
                           <li key={idx} className="text-sm text-gray-600 dark:text-gray-300 flex items-start">
-                            <span className="text-green-500 mr-2">•</span>
-                            {achievement}
+                            <Check className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
+                            <span>{achievement}</span>
                           </li>
                         ))}
                       </ul>

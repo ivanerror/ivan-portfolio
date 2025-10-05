@@ -196,6 +196,15 @@
           "Xây dựng giao diện React.js cho các module chính."
         ]
       },
+      "streamq": {
+        "title": "StreamQ - YouTube Downloader",
+        "description": "Ứng dụng desktop hiện đại để xếp hàng và tải xuống video/audio từ YouTube với GUI sạch sẽ và kiến trúc Python modular.",
+        "achievements": [
+          "Xây dựng giao diện GUI sạch sẽ và hiện đại với theo dõi tiến trình tải xuống thời gian thực.",
+          "Triển khai hệ thống quản lý hàng đợi cho nhiều lần tải xuống đồng thời.",
+          "Phát triển kiến trúc Python modular theo các thực tiễn tốt nhất để dễ bảo trì."
+        ]
+      },
       "portfolio": {
         "title": "Trang Portfolio Cá nhân",
         "description": "Trang portfolio xây dựng bằng Next.js, có hỗ trợ quốc tế hóa và chế độ tối.",

@@ -196,6 +196,15 @@
           "Nagawa ang React.js interfaces para sa mga key modules."
         ]
       },
+      "streamq": {
+        "title": "StreamQ - YouTube Downloader",
+        "description": "Modernong desktop application para sa pag-queue at pag-download ng video/audio mula sa YouTube na may malinis na GUI at modular na Python architecture.",
+        "achievements": [
+          "Gumawa ng malinis at modernong GUI interface na may real-time download progress tracking.",
+          "Nag-implement ng queue management system para sa maramihang simultaneous downloads.",
+          "Gumawa ng modular Python architecture na sumusunod sa best practices para sa maintainability."
+        ]
+      },
       "portfolio": {
         "title": "Personal Portfolio Website",
         "description": "Portfolio website na binuo gamit ang Next.js, may internationalization at dark mode.",

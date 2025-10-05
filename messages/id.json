@@ -196,6 +196,15 @@
           "Built React.js interfaces for key modules."
         ]
       },
+      "streamq": {
+        "title": "StreamQ - YouTube Downloader",
+        "description": "Aplikasi desktop modern untuk mengantre dan mengunduh video/audio dari YouTube dengan GUI yang bersih dan arsitektur Python yang modular.",
+        "achievements": [
+          "Membangun antarmuka GUI yang bersih dan modern dengan pelacakan progres unduhan real-time.",
+          "Mengimplementasikan sistem manajemen antrean untuk multiple unduhan simultan.",
+          "Mengembangkan arsitektur Python modular mengikuti praktik terbaik untuk maintainability."
+        ]
+      },
       "portfolio": {
         "title": "Personal Portfolio Website",
         "description": "Portfolio website built with Next.js, featuring internationalization and dark mode.",

@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { GlowCard } from '@/components/ui/glow-card';
-import { ParallaxElement } from '@/components/ui/parallax-background';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
@@ -21,7 +20,6 @@ const About = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <GlowCard
-            glowColor="from-indigo-400 via-purple-400 to-pink-400"
             intensity="medium"
           >
             <div className="text-center space-y-6">

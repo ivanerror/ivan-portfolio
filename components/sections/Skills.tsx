@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { GlowCard } from '@/components/ui/glow-card';
-import { ParallaxElement } from '@/components/ui/parallax-background';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Code, Globe, Database, Smartphone, Server, Languages } from 'lucide-react';
@@ -63,7 +62,6 @@ const Skills = () => {
           className="mb-8"
         >
           <GlowCard
-            glowColor="from-violet-400 via-purple-400 to-fuchsia-400"
             intensity="medium"
           >
             <div className="space-y-6">
@@ -110,7 +108,6 @@ const Skills = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <GlowCard
-            glowColor="from-pink-400 via-rose-400 to-red-400"
             intensity="medium"
           >
             <div className="space-y-4">

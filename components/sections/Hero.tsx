@@ -3,7 +3,6 @@
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { GlowCard } from '@/components/ui/glow-card';
-import { ParallaxElement } from '@/components/ui/parallax-background';
 import { Download, Mail, MapPin, Phone } from 'lucide-react';
 import Image from 'next/image';
 
@@ -76,7 +75,6 @@ const Hero = () => {
           {/* Bio with Immersive Glow Effect */}
           <GlowCard
             className="max-w-4xl mx-auto"
-            glowColor="from-blue-400 via-purple-400 to-pink-400"
             intensity="medium"
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">

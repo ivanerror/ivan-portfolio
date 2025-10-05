@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { GlowCard } from '@/components/ui/glow-card';
-import { ParallaxElement } from '@/components/ui/parallax-background';
 import { Badge } from '@/components/ui/badge';
 import { Heart } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -24,7 +23,6 @@ const Interests = () => {
           transition={{ duration: 0.6 }}
         >
           <GlowCard
-            glowColor="from-rose-400 via-pink-400 to-red-400"
             intensity="medium"
           >
             <div className="text-center space-y-6">
