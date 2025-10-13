@@ -7,7 +7,9 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "seed:projects": "node scripts/seed-projects.mjs"
+    "seed:projects": "node scripts/seed-projects.mjs",
+    "studio:dev": "sanity dev --host 0.0.0.0",
+    "studio:build": "sanity build --output dist/studio"
   },
   "dependencies": {
     "@radix-ui/react-separator": "^1.1.7",

@@ -1,31 +1,31 @@
-import {defineField, defineType} from 'sanity'
+import type {DocumentDefinition, Rule} from 'sanity'
 
-export default defineType({
+const project: DocumentDefinition = {
   name: 'project',
   title: 'Project',
   type: 'document',
   fields: [
-    defineField({
+    {
       name: 'title',
       title: 'Title',
       type: 'string',
-      validation: (rule) => rule.required().min(3),
-    }),
-    defineField({
+      validation: (rule: Rule) => rule.required().min(3),
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
       options: {source: 'title', maxLength: 96},
-      validation: (rule) => rule.required(),
-    }),
-    defineField({
+      validation: (rule: Rule) => rule.required(),
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'text',
       rows: 4,
-      validation: (rule) => rule.required().min(10),
-    }),
-    defineField({
+      validation: (rule: Rule) => rule.required().min(10),
+    },
+    {
       name: 'category',
       title: 'Category',
       type: 'string',
@@ -37,65 +37,64 @@ export default defineType({
         ],
         layout: 'radio',
       },
-      validation: (rule) => rule.required(),
-    }),
-    defineField({
+      validation: (rule: Rule) => rule.required(),
+    },
+    {
       name: 'technologies',
       title: 'Technologies',
       type: 'array',
       of: [{type: 'string'}],
       options: {layout: 'tags'},
-    }),
-    defineField({
+    },
+    {
       name: 'achievements',
       title: 'Key Achievements',
       type: 'array',
       of: [{type: 'string'}],
-    }),
-    defineField({
+    },
+    {
       name: 'links',
       title: 'Links',
       type: 'object',
       fields: [
-        defineField({
+        {
           name: 'demo',
           title: 'Demo URL',
           type: 'url',
-        }),
-        defineField({
+        },
+        {
           name: 'github',
           title: 'GitHub URL',
           type: 'url',
-        }),
+        },
       ],
-    }),
-    defineField({
+    },
+    {
       name: 'image',
       title: 'Cover Image',
       type: 'image',
       options: {hotspot: true},
       fields: [
-        defineField({
+        {
           name: 'alt',
           title: 'Alt text',
           type: 'string',
           description: 'Important for accessibility and SEO',
-        }),
+        },
       ],
-    }),
-    defineField({
+    },
+    {
       name: 'order',
       title: 'Order',
       type: 'number',
       description: 'Smaller numbers appear first in listings',
-    }),
-    // Optional simple locale field if you want per-locale projects
-    defineField({
+    },
+    {
       name: 'locale',
       title: 'Locale',
       type: 'string',
       description: 'e.g. en, id, my. Leave empty for all locales.',
-    }),
+    },
   ],
   preview: {
     select: {
@@ -111,5 +110,6 @@ export default defineType({
       }
     },
   },
-})
+}
 
+export default project

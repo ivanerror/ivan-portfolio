@@ -4,6 +4,18 @@ import {client} from '@/sanity/lib/client'
 import type {Project} from '@/types/project'
 import {groq} from 'next-sanity'
 
+type SanityProject = {
+  _id: string
+  title: string
+  description: string
+  category: Project['category']
+  technologies?: string[]
+  achievements?: string[]
+  links?: Project['links']
+  imageUrl?: string
+  slug?: string
+}
+
 const projectsQuery = groq`
   *[_type == "project" && (!defined(locale) || locale == $locale)]
   | order(coalesce(order, 9999) asc, _createdAt desc) {
@@ -34,16 +46,16 @@ const readClient = token
   : client
 
 export async function getProjects(locale: string): Promise<Project[]> {
-  const data = await readClient.fetch(projectsQuery, {locale})
-  return (data || []).map((p: any) => ({
-    id: p._id,
-    title: p.title,
-    description: p.description,
-    category: p.category,
-    technologies: p.technologies ?? [],
-    achievements: p.achievements ?? [],
-    links: p.links ?? {},
-    imageUrl: p.imageUrl,
-    slug: p.slug,
+  const data = await readClient.fetch<SanityProject[]>(projectsQuery, {locale})
+  return (data || []).map((project) => ({
+    id: project._id,
+    title: project.title,
+    description: project.description,
+    category: project.category,
+    technologies: project.technologies ?? [],
+    achievements: project.achievements ?? [],
+    links: project.links ?? {},
+    imageUrl: project.imageUrl,
+    slug: project.slug,
   }))
 }
