@@ -46,15 +46,21 @@ npm run start
 ```
 
 ## Project Structure
-- `app/` – root layout, locale-aware routes, and global styles
-- `components/layout/` – header, footer, and layout scaffolding
-- `components/sections/` – page sections such as Hero, Projects, Experience, and Skills
-- `components/ui/` – reusable UI primitives (glow cards, floating cursor, theme toggle, etc.)
-- `components/providers/` – shared providers like the theme context wrapper
-- `i18n/` – routing helpers and request configuration for `next-intl`
-- `messages/` – translation JSON files per locale
-- `public/` – static assets (logos, favicons, CV, imagery)
-- `docs/` – supplementary guides (e.g., Formspree setup)
+- `app/` ï¿½ root layout, locale-aware routes, and global styles
+- `components/layout/` ï¿½ header, footer, and layout scaffolding
+- `components/sections/` ï¿½ page sections such as Hero, Projects, Experience, and Skills
+- `components/ui/` ï¿½ reusable UI primitives (glow cards, floating cursor, theme toggle, etc.)
+- `components/providers/` ï¿½ shared providers like the theme context wrapper
+- `i18n/` ï¿½ routing helpers and request configuration for `next-intl`
+- `messages/` ï¿½ translation JSON files per locale
+- `public/` ï¿½ static assets (logos, favicons, CV, imagery)
+- `docs/` ï¿½ supplementary guides (e.g., Formspree setup)
+
+## Content Management
+- Project data is sourced from Sanity (`lib/projects.ts`). The helper automatically uses a server token when one of `SANITY_API_READ_TOKEN`, `SANITY_API_TOKEN`, or `SANITY_API_WRITE_TOKEN` is present, and falls back to the public CDN otherwise.
+- For private datasets, add the token to `.env.local`; public datasets can omit it.
+- Update localized project copy by editing the corresponding `messages/{locale}.json` entries (e.g., Indonesian strings live in `messages/id.json`).
+
 
 ## Internationalization
 - Routes are localized via `middleware.ts` and `i18n/routing.ts`.

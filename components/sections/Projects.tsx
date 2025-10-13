@@ -8,95 +8,14 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { ExternalLink, Github, Code, Smartphone, Globe, Database, Check } from 'lucide-react';
+import type { Project } from '@/types/project';
 
-const Projects = () => {
+const Projects = ({ projects }: { projects: Project[] }) => {
   const t = useTranslations('projects');
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const projects = [
-    {
-      id: 'grab-mex-app',
-      title: t('projects.grabMexApp.title'),
-      description: t('projects.grabMexApp.description'),
-      image: '/projects/grab-mex.jpg',
-      technologies: ['Flutter', 'Dart', 'WebView', 'JSON SDUI', 'AI Integration'],
-      category: 'mobile',
-      achievements: [
-        t('projects.grabMexApp.achievements.0'),
-        t('projects.grabMexApp.achievements.1'),
-        t('projects.grabMexApp.achievements.2')
-      ],
-      links: {
-        demo: 'https://play.google.com/store/apps/details?id=com.grab.merchant&hl=en',
-      }
-    },
-    {
-      id: 'grab-pos',
-      title: t('projects.grabPos.title'),
-      description: t('projects.grabPos.description'),
-      image: '/projects/grab-pos.jpg',
-      technologies: ['Flutter', 'React.js', 'TypeScript', 'QR Code', 'Design System'],
-      category: 'fullstack',
-      achievements: [
-        t('projects.grabPos.achievements.0'),
-        t('projects.grabPos.achievements.1'),
-        t('projects.grabPos.achievements.2')
-      ],
-      links: {
-        demo: 'https://hubbopos.com/my',
-      }
-    },
-    {
-      id: 'crm-system',
-      title: t('projects.crmSystem.title'),
-      description: t('projects.crmSystem.description'),
-      image: '/projects/crm-system.jpg',
-      technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT'],
-      category: 'fullstack',
-      achievements: [
-        t('projects.crmSystem.achievements.0'),
-        t('projects.crmSystem.achievements.1'),
-        t('projects.crmSystem.achievements.2')
-      ],
-      links: {
-        github: 'https://github.com/ivanerror',
-      }
-    },
-    {
-      id: 'portfolio-website',
-      title: t('projects.portfolio.title'),
-      description: t('projects.portfolio.description'),
-      image: '/projects/portfolio.jpg',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'next-intl'],
-      category: 'web',
-      achievements: [
-        t('projects.portfolio.achievements.0'),
-        t('projects.portfolio.achievements.1'),
-        t('projects.portfolio.achievements.2')
-      ],
-      links: {
-        demo: 'https://ivanerror.is-a.dev/',
-        github: 'https://github.com/ivanerror/ivan-portfolio',
-      }
-    },
-    {
-      id: 'streamq',
-      title: t('projects.streamq.title'),
-      description: t('projects.streamq.description'),
-      image: '/projects/streamq.svg',
-      technologies: ['Python', 'Tkinter', 'yt-dlp', 'FFmpeg', 'Threading', 'GUI Development'],
-      category: 'fullstack',
-      achievements: [
-        t('projects.streamq.achievements.0'),
-        t('projects.streamq.achievements.1'),
-        t('projects.streamq.achievements.2')
-      ],
-      links: {
-        github: 'https://github.com/ivanerror/StreamQ',
-      }
-    },
-  ];
+  // "projects" now comes from Sanity via the page server component
 
   const categories = [
     { id: 'all', name: t('categories.all'), icon: Code },
@@ -142,7 +61,7 @@ const Projects = () => {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          {projects.map((project, index) => {
+          {projects?.map((project, index) => {
             const CategoryIcon = getCategoryIcon(project.category);
             
             return (
@@ -210,14 +129,14 @@ const Projects = () => {
 
                     {/* Action Buttons */}
                     <div className="flex space-x-3 pt-4 border-t border-gray-200/50 dark:border-gray-700/50">
-                      {project.links.demo && (
+                      {project.links?.demo && (
                         <Button
                           asChild
                           size="sm"
                           className={`bg-gradient-to-r ${getCategoryColor(project.category)} text-white hover:shadow-lg transition-all duration-300`}
                         >
                           <a
-                            href={project.links.demo}
+                            href={project.links?.demo || '#'}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center space-x-2"
@@ -227,14 +146,14 @@ const Projects = () => {
                           </a>
                         </Button>
                       )}
-                      {project.links.github && (
+                      {project.links?.github && (
                         <Button
                           asChild
                           variant="outline"
                           size="sm"
                         >
                           <a
-                            href={project.links.github}
+                            href={project.links?.github || '#'}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center space-x-2"
@@ -251,6 +170,12 @@ const Projects = () => {
             );
           })}
         </motion.div>
+
+        {(!projects || projects.length === 0) && (
+          <div className="mt-10 text-center text-muted-foreground">
+            No projects found yet.
+          </div>
+        )}
 
         {/* Call to Action */}
         <motion.div

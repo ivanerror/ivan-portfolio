@@ -145,16 +145,16 @@
     "builtWith": "Built with Next.js and Tailwind CSS"
   },
   "projects": {
-    "title": "My Projects",
-    "description": "Selected work across mobile and web reflecting real contributions and measurable outcomes.",
-    "technologies": "Technologies Used",
-    "keyAchievements": "Key Achievements",
-    "viewProject": "View Project",
-    "viewCode": "View Code",
-    "interestedInWorking": "Interested in working together?",
-    "getInTouch": "Get In Touch",
+    "title": "Proyek Saya",
+    "description": "Pilihan karya di mobile dan web yang mencerminkan kontribusi nyata dan hasil yang terukur.",
+    "technologies": "Teknologi yang Digunakan",
+    "keyAchievements": "Pencapaian Utama",
+    "viewProject": "Lihat Proyek",
+    "viewCode": "Lihat Kode",
+    "interestedInWorking": "Tertarik bekerja sama?",
+    "getInTouch": "Hubungi Saya",
     "categories": {
-      "all": "All Projects",
+      "all": "Semua Proyek",
       "mobile": "Mobile",
       "web": "Web",
       "fullstack": "Full Stack"
